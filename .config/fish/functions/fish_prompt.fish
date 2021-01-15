@@ -1,0 +1,1 @@
+/home/stanzu10/.local/share/omf/themes/edan/fish_prompt.fish
