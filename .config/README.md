@@ -10,8 +10,7 @@ This is a repository for my personal config files for my linux install. The conf
 * Compton Compositer
 * Vim
 
-![screenshot]
-(https://github.com/bbastanza/dotfiles/blob/main/.config/screenshot.png)
+![screenshot](https://github.com/bbastanza/dotfiles/blob/main/.config/screenshot.png)
 
 Please feel free to use these configs and edit as you would like. Cheers!
 
