@@ -1,3 +1,7 @@
+Below is the original config page that I have edited heavily to suit my needs. Please send the original authors some love!
+
+-bbastanza
+
 Awesome WM Copycats
 ===================
 
