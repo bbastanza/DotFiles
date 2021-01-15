@@ -24,9 +24,10 @@ alias ll="exa -la"
 alias evil="emacs -nw"
 alias ..="cd .."
 
+alias dotadd="/home/stanzu10/bin/dotpush"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # editor
-set -x EDITOR vim
+set EDITOR "vim"
 
 # kitty completion
 kitty + complete setup fish | source
