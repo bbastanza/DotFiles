@@ -20,6 +20,7 @@ alias audit="npm audit fix"
 alias ls="exa -l"
 alias la="exa -a"
 alias ll="exa -la"
+alias lss="exa"
 
 alias evil="emacs -nw"
 alias ..="cd .."
