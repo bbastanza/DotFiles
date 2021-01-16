@@ -299,27 +299,21 @@ globalkeys = my_table.join(
 
     awful.key({ altkey,           }, "Tab",
         function ()
-            if cycle_prev then
-                awful.client.focus.history.previous()
-            else
-                awful.client.focus.byidx(-1)
-            end
+            awful.client.focus.byidx(1)
             if client.focus then
                 client.focus:raise()
             end
         end,
-        {description = "cycle with previous/go back", group = "client"}),
+        {description = "cycle next window", group = "client"}),
 
     awful.key({ altkey, "Shift"   }, "Tab",
         function ()
-            if cycle_prev then
-                awful.client.focus.byidx(1)
-                if client.focus then
-                    client.focus:raise()
-                end
+            awful.client.focus.byidx(-1)
+            if client.focus then
+                client.focus:raise()
             end
         end,
-        {description = "go forth", group = "client"}),
+        {description = "cycle previous window", group = "client"}),
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
