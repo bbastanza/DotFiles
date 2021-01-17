@@ -3,7 +3,7 @@
 background	    	= black	black
 frame		    	= white		black
 window_title    	= yellow		black
-directory	    	= black		red	bold
+directory	    	= black		green	bold
 selected_directory	= black		cyan
 playlist	    	= yellow		black	bold
 selected_playlist	= black		cyan
