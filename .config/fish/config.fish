@@ -14,9 +14,9 @@ alias commit="git commit -m"
 alias push="git push"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias cadd="config add -u"
-alias ccommit="config commit -m"
-alias cpush="config push"
+alias configadd="config add -u"
+alias configcommit="config commit -m"
+alias configpush="config push"
 
 alias remove="sudo apt remove"
 alias install="sudo apt install"
