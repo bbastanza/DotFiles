@@ -13,10 +13,17 @@ alias add="git add"
 alias commit="git commit -m"
 alias push="git push"
 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cadd="config add -u"
+alias ccommit="config commit -m"
+alias cpush="config push"
+
 alias remove="sudo apt remove"
 alias install="sudo apt install"
+
 alias fd="br"
 alias fh="br -h"
+
 alias dot="dotnet watch run"
 alias audit="npm audit fix"
 
@@ -28,12 +35,6 @@ alias lss="exa"
 alias evil="emacs -nw"
 alias ..="cd .."
 
-alias cfa="config add -u"
-alias cfc="config commit -m"
-alias cfp="config push"
-
-alias dotadd="/home/stanzu10/bin/dotpush"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # editor
 set EDITOR "vim"
 
