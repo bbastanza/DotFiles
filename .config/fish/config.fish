@@ -25,6 +25,10 @@ alias lss="exa"
 alias evil="emacs -nw"
 alias ..="cd .."
 
+alias cfa="config add -u"
+alias cfc="config commit -m"
+alias cfp="config push"
+
 alias dotadd="/home/stanzu10/bin/dotpush"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # editor
