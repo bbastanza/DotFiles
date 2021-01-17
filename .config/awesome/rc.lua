@@ -242,8 +242,14 @@ globalkeys = my_table.join(
               {description = "show help", group="awesome"}),
 
     -- Tag browsing
+    awful.key({ modkey }, "h",   awful.tag.viewprev,
+              {description = "view previous", group = "tag"}),
+
     awful.key({ modkey }, "Left",   awful.tag.viewprev,
               {description = "view previous", group = "tag"}),
+
+    awful.key({ modkey }, "l",  awful.tag.viewnext,
+              {description = "view next", group = "tag"}),
 
     awful.key({ modkey }, "Right",  awful.tag.viewnext,
               {description = "view next", group = "tag"}),
@@ -428,17 +434,11 @@ globalkeys = my_table.join(
     awful.key({ modkey }, "f", function () awful.spawn("firefox") end,
               {description = "launch Firefox", group = "user apps"}),
 
-    awful.key({ modkey }, "m", function () awful.spawn("gnome-system-monitor") end,
-              {description = "launch System Monitor", group = "user apps"}),
-
     awful.key({ modkey }, "t", function () awful.spawn("tidal-hifi") end,
               {description = "launch Tidal Client", group = "user apps"}),
 
     awful.key({ modkey }, "p", function () awful.spawn("pcmanfm") end,
               {description = "launch Pcmanfm", group = "user apps"}),
-
-    awful.key({ modkey }, "k", function () awful.spawn("kcolorchooser") end,
-              {description = "launch KColorChooser", group = "user apps"}),
 
     awful.key({ modkey }, "Print", function () awful.spawn("gnome-screenshot -a") end,
               {description = "Screenshot(area)", group = "user apps"}),
