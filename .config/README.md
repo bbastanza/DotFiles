@@ -9,6 +9,7 @@ This is a repository for my personal config files for my linux install. The conf
 * Rofi Run Prompt
 * Compton Compositer
 * Vim
+* MOC Music Player
 
 ![screenshot](https://github.com/bbastanza/dotfiles/blob/main/.config/screenshot.png)
 

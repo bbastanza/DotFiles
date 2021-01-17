@@ -1,0 +1,34 @@
+# theme by stanzu10
+
+background	    	= black	black
+frame		    	= white		black
+window_title    	= yellow		black
+directory	    	= black		red	bold
+selected_directory	= black		cyan
+playlist	    	= yellow		black	bold
+selected_playlist	= black		cyan
+file		    	= green		black
+selected_file   	= black		cyan
+marked_file	    	= red		black	bold
+marked_selected_file = black		cyan	bold
+info		    	= yellow		black
+status		    	= green		black
+title		    	= green		black bold
+state		    	= yellow		green	bold
+current_time    	= green		default	bold
+time_left	    	= red		default	bold
+total_time	    	= yellow		black
+time_total_frames	= yellow		black
+sound_parameters	= yellow		black bold
+legend		    	= yellow		black
+disabled		    = black		red bold
+enabled			    = cyan		black	bold
+empty_mixer_bar	    = yellow		black
+filled_mixer_bar	= black		yellow
+empty_time_bar	    = green		black
+filled_time_bar		= black		green
+entry		    	= cyan		black
+entry_title		    = cyan		black
+error			    = red		red	bold
+message			    = green		default
+plist_time		    = green		default
