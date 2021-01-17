@@ -35,6 +35,8 @@ alias lss="exa"
 alias evil="emacs -nw"
 alias ..="cd .."
 
+alias moc="mocp"
+alias mok="mocp -x"
 # editor
 set EDITOR "vim"
 

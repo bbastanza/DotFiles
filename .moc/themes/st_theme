@@ -29,6 +29,6 @@ empty_time_bar	    = green		black
 filled_time_bar		= black		green
 entry		    	= cyan		black
 entry_title		    = cyan		black
-error			    = red		red	bold
+error			    = black		red	bold
 message			    = green		default
 plist_time		    = green		default
