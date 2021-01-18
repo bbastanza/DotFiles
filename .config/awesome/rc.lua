@@ -80,7 +80,7 @@ local vi_focus     = false -- vi-like client focus - https://github.com/lcpz/awe
 local cycle_prev   = true -- cycle trough all previous client or just the first -- https://github.com/lcpz/awesome-copycats/issues/274
 local editor       = os.getenv("vim") or "vim"
 local gui_editor   = os.getenv("code") or "emacs"
-local browser      = os.getenv("brave-browser") or "firefox"
+local browser      = os.getenv("Brave-browser") or "firefox"
 local scrlocker    = "slock"
 
 --"", "", "", "", "",  "", "" ♯♫	Ω⌨    〈 〉⪮‹/›
@@ -431,9 +431,6 @@ globalkeys = my_table.join(
     awful.key({ modkey }, "b", function () awful.spawn("brave-browser") end,
               {description = "launch Brave", group = "user apps"}),
 
-    awful.key({ modkey }, "f", function () awful.spawn("firefox") end,
-              {description = "launch Firefox", group = "user apps"}),
-
     awful.key({ modkey }, "t", function () awful.spawn("tidal-hifi") end,
               {description = "launch Tidal Client", group = "user apps"}),
 
@@ -573,7 +570,7 @@ awful.rules.rules = {
                      buttons = clientbuttons,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen,
                      size_hints_honor = false
-     }
+                   }
     },
 
 -- Titlebars
@@ -602,7 +599,7 @@ awful.rules.rules = {
 
 -- tidal         
     { rule = { instance = "tidal-hifi" },
-      properties = { tag = awful.util.tagnames[6], switchtotag = true  } },
+      properties = { screen = 1, tag = awful.util.tagnames[6], switchtotag = true  } },
 
 -- tidal         
     { rule = { instance = "clementine" },

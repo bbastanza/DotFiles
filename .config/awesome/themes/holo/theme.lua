@@ -19,6 +19,7 @@ local theme                                     = {}
 theme.default_dir                               = require("awful.util").get_themes_dir() .. "default"
 theme.icon_dir                                  = os.getenv("HOME") .. "/.config/awesome/themes/holo/icons"
 theme.wallpaper                                 = os.getenv("HOME") .. "/Pictures/Wallpapers/1009.jpg"
+
 theme.font                                      = "Ubuntu Mono Bold 12"
 theme.fg_normal                                 = "#FFFFFF"
 theme.taglist_font                              = "Ubuntu Mono 12"
@@ -27,15 +28,31 @@ theme.bg_focus                                  = "#303030"
 theme.bg_normal                                 = "#313131"
 theme.fg_urgent                                 = "#CC9393"
 theme.bg_urgent                                 = "#006B8E"
+
 theme.border_width                              = dpi(1)
 theme.border_normal                             = "#4F4731"
 theme.border_focus                              = "#AF9556"
+
 theme.taglist_fg_focus                          = "#F7E09B"
 theme.tasklist_bg_normal                        = "#222222"
 theme.tasklist_fg_focus                         = "#F7E09B"
+
+theme.notification_bg                           = "#313131"
+theme.notification_fg                           = "#F7E09B"
+theme.notification_font                         = "Ubuntu 14"
+theme.notification_border_width                 = 1
+theme.notification_border_color                 = "#F7E09B"
+theme.notification_margin                       = 10
+theme.notification_width                        = 200
+theme.notification_height                       = 65
+theme.notification_position                     = "bottom_right"
+theme.notification_opacity                      = .9
+theme.notification_timeout                      = 10
+
 theme.menu_height                               = dpi(20)
 theme.menu_width                                = dpi(160)
 theme.menu_icon_size                            = dpi(32)
+
 theme.awesome_icon                              = theme.icon_dir .. "/awesome_icon_white.png"
 theme.awesome_icon_launcher                     = theme.icon_dir .. "/awesome_icon.png"
 theme.taglist_squares_sel                       = theme.icon_dir .. "/square_sel.png"
@@ -47,7 +64,7 @@ theme.spr_bottom_right                          = theme.icon_dir .. "/spr_bottom
 theme.spr_left                                  = theme.icon_dir .. "/spr_left.png"
 theme.bar                                       = theme.icon_dir .. "/bar.png"
 theme.bottom_bar                                = theme.icon_dir .. "/bottom_bar.png"
---theme.mpdl                                      = theme.icon_dir .. "/mpd.png"
+theme.mpdl                                      = theme.icon_dir .. "/mpd.png"
 --theme.mpd_on                                    = theme.icon_dir .. "/mpd_on.png"
 --theme.prev                                      = theme.icon_dir .. "/prev.png"
 --theme.nex                                       = theme.icon_dir .. "/next.png"
@@ -72,9 +89,12 @@ theme.layout_max                                = theme.icon_dir .. "/max.png"
 theme.layout_fullscreen                         = theme.icon_dir .. "/fullscreen.png"
 theme.layout_magnifier                          = theme.icon_dir .. "/magnifier.png"
 theme.layout_floating                           = theme.icon_dir .. "/floating.png"
+
 theme.tasklist_plain_task_name                  = true
 theme.tasklist_disable_icon                     = true
+
 theme.useless_gap                               = dpi(0)
+
 theme.titlebar_close_button_normal              = theme.default_dir.."/titlebar/close_normal.png"
 theme.titlebar_close_button_focus               = theme.default_dir.."/titlebar/close_focus.png"
 theme.titlebar_minimize_button_normal           = theme.default_dir.."/titlebar/minimize_normal.png"
@@ -96,7 +116,7 @@ theme.titlebar_maximized_button_focus_inactive  = theme.default_dir.."/titlebar/
 theme.titlebar_maximized_button_normal_active   = theme.default_dir.."/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active    = theme.default_dir.."/titlebar/maximized_focus_active.png"
 
-theme.musicplr = string.format("%s -e ncmpcpp", awful.util.terminal)
+theme.musicplr = string.format("%s -e mocp", awful.util.terminal)
 
 local markup = lain.util.markup
 local blue   = "#55B7C6"
@@ -156,7 +176,7 @@ theme.cal = lain.widget.cal({
 })
 
 -- MPD
---local mpd_icon = awful.widget.launcher({ image = theme.mpdl, command = theme.musicplr })
+local mpd_icon = awful.widget.launcher({ image = theme.mpdl, command = theme.musicplr })
 --local prev_icon = wibox.widget.imagebox(theme.prev)
 --local next_icon = wibox.widget.imagebox(theme.nex)
 --local stop_icon = wibox.widget.imagebox(theme.stop)
@@ -317,6 +337,7 @@ function theme.at_screen_connect(s)
             bottom_bar,
             s.systraycontainer,
             bottom_bar,
+            mpd_icon,
             APW,
             calendar_icon,
             calendarwidget,

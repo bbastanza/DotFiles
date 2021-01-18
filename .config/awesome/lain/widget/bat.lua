@@ -8,6 +8,7 @@
 
 local helpers  = require("lain.helpers")
 local fs       = require("gears.filesystem")
+local gears       = require("gears")
 local naughty  = require("naughty")
 local wibox    = require("wibox")
 local math     = math
@@ -52,25 +53,49 @@ local function factory(args)
     bat_notification_critical_preset = {
         title   = "Battery exhausted",
         text    = "Shutdown imminent",
-        timeout = 15,
-        fg      = "#000000",
-        bg      = "#FFFFFF"
+        font    = "Ubuntu 14",
+        border_width    = 1,
+        border_color    = "#df5a7f",
+        margin  = 10,
+        width  = 190,
+        height  = 65,
+        position = "bottom_right",
+        opacity = .9,
+        timeout = 20,
+        fg      = "#df5a7f",
+        bg      = "#313131"
     }
 
     bat_notification_low_preset = {
         title   = "Battery low",
-        text    = "Plug the cable!",
-        timeout = 15,
-        fg      = "#202020",
-        bg      = "#CDCDCD"
+        text    = "Plug in the cable",
+        font    = "Ubuntu 14",
+        border_width    = 1,
+        border_color    = "#df5a7f",
+        margin  = 10,
+        width  = 180,
+        height  = 65,
+        position = "bottom_right",
+        opacity = .9,
+        timeout = 10,
+        fg      = "#f7e09b",
+        bg      = "#313131"
     }
 
     bat_notification_charged_preset = {
         title   = "Battery full",
-        text    = "You can unplug the cable",
-        timeout = 15,
-        fg      = "#202020",
-        bg      = "#CDCDCD"
+        text    = "Unplug the cable",
+        font    = "Ubuntu 14",
+        border_width    = 1,
+        border_color    = "#f7e09b",
+        margin  = 10,
+        width  = 180,
+        height  = 65,
+        position = "bottom_right",
+        opacity = .9,
+        timeout = 10,
+        fg      = "#58dfac",
+        bg      = "#313131"
     }
 
     bat_now = {
