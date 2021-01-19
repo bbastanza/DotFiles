@@ -618,6 +618,10 @@ awful.rules.rules = {
     { rule = { instance = "slack" },
       properties = { tag = awful.util.tagnames[4], switchtotag = true  } },
 
+-- zoom         
+    { rule = { instance = "zoom" },
+      properties = { tag = awful.util.tagnames[5], switchtotag = true  } },
+
 -- brave         
     { rule = { instance = "brave-browser" },
       properties = { tag = awful.util.tagnames[3], switchtotag = true  } },
