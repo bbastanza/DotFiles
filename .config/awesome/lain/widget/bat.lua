@@ -51,8 +51,8 @@ local function factory(args)
     if #batteries == 0 then bat.get_batteries() end
 
     bat_notification_critical_preset = {
-        title   = "Battery exhausted",
-        text    = "Shutdown imminent",
+        title   = "Battery exhausted!",
+        text    = "Shutdown imminent!",
         font    = "Ubuntu 14",
         border_width    = 1,
         border_color    = "#df5a7f",
@@ -68,7 +68,7 @@ local function factory(args)
 
     bat_notification_low_preset = {
         title   = "Battery low",
-        text    = "Plug in the cable",
+        text    = "Plug in the cable.",
         font    = "Ubuntu 14",
         border_width    = 1,
         border_color    = "#df5a7f",
@@ -84,17 +84,17 @@ local function factory(args)
 
     bat_notification_charged_preset = {
         title   = "Battery full",
-        text    = "Unplug the cable",
+        text    = "Unplug the cable.",
         font    = "Ubuntu 14",
         border_width    = 1,
-        border_color    = "#f7e09b",
+        border_color    = "#58dfac",
         margin  = 10,
         width  = 180,
         height  = 65,
         position = "bottom_right",
         opacity = .9,
         timeout = 10,
-        fg      = "#58dfac",
+        fg      = "#f7e09b",
         bg      = "#313131"
     }
 

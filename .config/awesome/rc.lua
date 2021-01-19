@@ -1,6 +1,10 @@
 --[[
-
-  Stanzu10 AwesomeWM rc.lua
+     _                        _  ___  
+ ___| |_ __ _ _ __  _____   _/ |/ _ \ 
+/ __| __/ _` | '_ \|_  / | | | | | | |
+\__ \ || (_| | | | |/ /| |_| | | |_| |
+|___/\__\__,_|_| |_/___|\__,_|_|\___/ 
+  AwesomeWM rc.lua
   www.brianbastanza.me
 --
 
@@ -30,6 +34,7 @@ local dpi           = require("beautiful.xresources").apply_dpi
 if awesome.startup_errors then
     naughty.notify({ preset = naughty.config.presets.critical,
                      title = "You done fucked up.",
+                     position = "bottom_right",
                      text = awesome.startup_errors })
 end
 
@@ -41,6 +46,7 @@ do
         in_error = true
 
         naughty.notify({ preset = naughty.config.presets.critical,
+                         position = "bottom_right",
                          title = "You done fucked up.",
                          text = tostring(err) })
         in_error = false
@@ -429,10 +435,16 @@ globalkeys = my_table.join(
               {description = "launch Zoom", group = "user apps"}),
     
     awful.key({ modkey }, "b", function () awful.spawn("brave-browser") end,
-              {description = "launch Brave", group = "user apps"}),
+              { description = "launch Brave", group = "user apps"}),
 
     awful.key({ modkey }, "t", function () awful.spawn("tidal-hifi") end,
               {description = "launch Tidal Client", group = "user apps"}),
+
+    awful.key({ modkey }, "m", function () awful.spawn("gnome-terminal -e mocp") end,
+              {description = "launch MOC(gnome-terminal)", group = "user apps"}),
+
+    awful.key({ modkey, "Control" }, "m", function () os.execute("mocp -x") end,
+              {description = "kill MOC server", group = "user apps"}),
 
     awful.key({ modkey }, "p", function () awful.spawn("pcmanfm") end,
               {description = "launch Pcmanfm", group = "user apps"}),
@@ -566,6 +578,7 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      focus = awful.client.focus.filter,
                      raise = true,
+                     screen = awful.screen.preferred,
                      keys = clientkeys,
                      buttons = clientbuttons,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen,
@@ -593,21 +606,29 @@ awful.rules.rules = {
     { rule = { instance = "pavucontrol" },
       properties = { screen = 1, tag = awful.util.tagnames[7], switchtotag = true  } },
 
--- rofi         
-    { rule = { instance = "rofi" },
-      properties = { screen = 2 } },
-
 -- tidal         
     { rule = { instance = "tidal-hifi" },
       properties = { screen = 1, tag = awful.util.tagnames[6], switchtotag = true  } },
 
--- tidal         
-    { rule = { instance = "clementine" },
-      properties = { tag = awful.util.tagnames[6], switchtotag = true  } },
+-- mocp         
+    { rule = { instance = "gnome-terminal-server" },
+      properties = { screen = 1, tag = awful.util.tagnames[6], switchtotag = true  } },
 
 -- slack         
     { rule = { instance = "slack" },
       properties = { tag = awful.util.tagnames[4], switchtotag = true  } },
+
+-- brave         
+    { rule = { instance = "brave-browser" },
+      properties = { tag = awful.util.tagnames[3], switchtotag = true  } },
+
+-- vscode         
+    { rule = { instance = "code" },
+      properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
+
+-- rider         
+    { rule = { instance = "rider" },
+      properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
 
 -- blueman-manager          
     { rule = { instance = "blueman-manager" },

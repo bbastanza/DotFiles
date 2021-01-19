@@ -116,7 +116,7 @@ theme.titlebar_maximized_button_focus_inactive  = theme.default_dir.."/titlebar/
 theme.titlebar_maximized_button_normal_active   = theme.default_dir.."/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active    = theme.default_dir.."/titlebar/maximized_focus_active.png"
 
-theme.musicplr = string.format("%s -e mocp", awful.util.terminal)
+theme.musicplr = string.format("gnome-terminal -e mocp")
 
 local markup = lain.util.markup
 local blue   = "#55B7C6"

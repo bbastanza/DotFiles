@@ -23,6 +23,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'joshdick/onedark.vim'
 Plug 'skammer/vim-css-color'
+Plug 'christoomey/vim-system-copy'
 
 call plug#end()
 
