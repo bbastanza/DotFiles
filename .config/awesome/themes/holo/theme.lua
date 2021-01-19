@@ -47,7 +47,6 @@ theme.notification_width                        = 200
 theme.notification_height                       = 65
 theme.notification_position                     = "bottom_right"
 theme.notification_opacity                      = .9
-theme.notification_timeout                      = 10
 
 theme.menu_height                               = dpi(20)
 theme.menu_width                                = dpi(160)
@@ -168,10 +167,16 @@ local calendarwidget = wibox.container.margin(calbg, dpi(0), dpi(0), dpi(5), dpi
 theme.cal = lain.widget.cal({
     attach_to = { mytextclock, mytextcalendar },
     notification_preset = {
-        fg = "#FFFFFF",
-        bg = theme.bg_normal,
+        bg = "#313131",
+        fg = "#F7E09B",
+        border_width = 1,
+        border_color = "#F7E09B",
+        margin = 10,
+        width = 478,
+        height = 180,
+        opacity = .97,
         position = "bottom_right",
-        font = "Ubuntu Mono 10"
+        font = "Ubuntu Mono Bold 16"
     }
 })
 
