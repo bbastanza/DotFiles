@@ -26,7 +26,6 @@ alias fh="br -h"
 alias dot="dotnet watch run"
 alias audit="npm audit fix"
 
-alias vv="vifm"
 
 alias ls="exa -l --group-directories-first"
 alias la="exa -a --group-directories-first"

@@ -21,46 +21,13 @@
 # TUI:
 al
 q1
-v2
+v1
 ov
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git/stock/API/client/src
-	Modals
-5
-d/home/stanzu10/Dev/git/stock/API/client/src/Modals
-	ExpiredSession.js
-2
-d/home/stanzu10/Dev/git/stock/API/client/src
-	IndividualComponents
-4
-d/home/stanzu10/Dev/git/stock/API/client
-	public
-3
-d/home/stanzu10/Dev/git/stock/API
-	Middleware
-3
-d/home/stanzu10/Dev/git/stock/API/Middleware
-	DbConnectionMiddleware.cs
-1
-d/home/stanzu10/Dev/git/stock/API
-	Middleware
-3
-d/home/stanzu10/Dev/git/stock
-	API
-4
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10
-	Dev
-2
 d/home/stanzu10/Dev
 	challenges
 9
@@ -176,7 +143,40 @@ d/home
 	stanzu10
 1
 d/
-	home
+	lib
+6
+d/home/stanzu10
+	Music
+5
+d/home/stanzu10/Music
+	..
+0
+d/home/stanzu10/bin
+	..
+0
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10
+	Music
+5
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10
+	Music
+5
+d/
+	lib
+6
+d/home/stanzu10
+	Music
+5
+d/home/stanzu10/Dev/git
+	..
+0
+d/home/stanzu10
+	Music
 5
 d
 
@@ -188,7 +188,6 @@ D
 
 # Command line history (oldest to newest):
 :nmap
-:h
 :..
 :help
 :wq
@@ -196,9 +195,24 @@ D
 :view
 :fileviewer
 :fileviewer 0001.jpg
+:hidden
+:hide
+:dot
+:dotdirs
+:dotdir
+:h
+:directorys
+:dotfiles
+:wo
+:ws
+:sw
+:vo
+:vs
+:vw
 :q
 
 # Search history (oldest to newest):
+/config
 /.confi
 /lib
 /usr
@@ -231,7 +245,7 @@ t/home/stanzu10/.local/share/vifm/Trash/000_light_greenBeautiful-Dragonfly-Macro
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
