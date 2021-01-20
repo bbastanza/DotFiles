@@ -10,6 +10,7 @@ This is a repository for my personal config files for my linux install. The conf
 * Compton Compositer
 * Vim
 * MOC Music Player
+* VIFM
 
 ![screenshot](https://github.com/bbastanza/dotfiles/blob/main/.config/screenshot.png)
 

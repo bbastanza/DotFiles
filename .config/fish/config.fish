@@ -23,7 +23,6 @@ alias install="sudo apt install"
 
 alias fd="br"
 alias fh="br -h"
-
 alias dot="dotnet watch run"
 alias audit="npm audit fix"
 
