@@ -268,7 +268,10 @@ globalkeys = my_table.join(
               {description = "view  previous nonempty", group = "tag"}),
 
     awful.key({ altkey }, "Right", function () lain.util.tag_view_nonempty(1) end,
-              {description = "view  previous nonempty", group = "tag"}),
+              {description = "view  next nonempty", group = "tag"}),
+
+    awful.key({ altkey, "Shift" }, "Tab", function () lain.util.tag_view_nonempty(1) end,
+              {description = "view  next nonempty", group = "tag"}),
 
     -- By direction client focus
     awful.key({ altkey }, "j",
@@ -317,15 +320,6 @@ globalkeys = my_table.join(
             end
         end,
         {description = "cycle next window", group = "client"}),
-
-    awful.key({ altkey, "Shift"   }, "Tab",
-        function ()
-            awful.client.focus.byidx(-1)
-            if client.focus then
-                client.focus:raise()
-            end
-        end,
-        {description = "cycle previous window", group = "client"}),
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,

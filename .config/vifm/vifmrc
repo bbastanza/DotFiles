@@ -110,7 +110,8 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 
 mark h ~/
 mark g ~/Dev/git
-mark / r
+mark r /
+mark c ~/.config
 
 " :com[mand] command_name action
 " The following macros can be used in a command

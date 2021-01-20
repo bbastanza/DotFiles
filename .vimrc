@@ -24,8 +24,17 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
 Plug 'skammer/vim-css-color'
 Plug 'christoomey/vim-system-copy'
+Plug 'itchyny/lightline.vim'
+Plug 'ap/vim-css-color'
+Plug 'vifm/vifm.vim'
+
 
 call plug#end()
 
 colorscheme onedark
 set background=dark
+set laststatus=2
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }

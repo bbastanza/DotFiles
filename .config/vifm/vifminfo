@@ -20,7 +20,7 @@
 
 # TUI:
 al
-q1
+q0
 v1
 ov
 m-1
@@ -28,117 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev
-	challenges
-9
-d/home/stanzu10/Dev/challenges
-	HourGlassSum.js
-1
-d/home/stanzu10/Dev
-	challenges
-9
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/Documents
-	Resume
-4
-d/home/stanzu10/Documents/Resume
-	..
-0
-d/home/stanzu10/Documents
-	Resume
-4
-d/home/stanzu10/Documents/Resume
-	BrianBastanzaResumeNoRef.docx
-4
-d/home/stanzu10/Documents
-	Resume
-4
-d/home/stanzu10/Documents/Resume
-	BrianBastanzaResumeNoRef.docx
-4
-d/home/stanzu10/Documents
-	Plumpjack
-3
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	challenges
-9
-d/home/stanzu10/Dev/challenges
-	..
-0
-d/home/stanzu10/Dev
-	Scripts
-5
-d/home/stanzu10
-	Public
-7
-d/home/stanzu10/Public
-	..
-0
-d/home/stanzu10
-	Public
-7
-d/home
-	stanzu10
-1
-d/
-	lib64
-8
-d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	vifm
-41
-d/home/stanzu10/.config/vifm
-	colors
-1
-d/home/stanzu10/.config/vifm/colors
-	..
-0
-d/home/stanzu10/.config/vifm
-	colors
-1
-d/home/stanzu10/.config
-	vifm
-41
-d/home/stanzu10
-	.config
-4
-d/home
-	stanzu10
-1
-d/
-	home
-5
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	vifm
-41
-d/home/stanzu10/.config/vifm
-	colors
-1
-d/home/stanzu10/.config/vifm/colors
-	..
-0
-d/home/stanzu10/.config/vifm
-	colors
-1
-d/home/stanzu10/.config
-	vifm
-41
-d/home/stanzu10
-	.config
-4
 d/home
 	stanzu10
 1
@@ -178,6 +67,117 @@ d/home/stanzu10/Dev/git
 d/home/stanzu10
 	Music
 5
+d/home/stanzu10/Dev/git
+	..
+0
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/Documents
+	Plumpjack
+3
+d/home/stanzu10/Documents/Plumpjack
+	hours.txt
+3
+d/home/stanzu10/Documents
+	Plumpjack
+3
+d/home/stanzu10
+	..
+0
+d/home
+	..
+0
+d/
+	home
+5
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/Documents
+	Plumpjack
+3
+d/home/stanzu10/Documents/Plumpjack
+	Summer2020.docx
+2
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	Core
+2
+d/home/stanzu10/Dev/git/stock/Core
+	obj
+5
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API/client/src
+	App.css
+9
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	themes
+4
+d/home/stanzu10/.config/awesome/themes
+	holo
+4
+d/home/stanzu10/.config/awesome/themes/holo
+	theme.lua
+2
+d/home/stanzu10
+	.config
+4
+d/home
+	stanzu10
+1
+d/
+	home
+5
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	rc.lua
+8
 d
 
 # Right window history (oldest to newest):
@@ -187,6 +187,15 @@ D/home/stanzu10/.config/vifm
 D
 
 # Command line history (oldest to newest):
+:split
+:vsplit
+:osplit
+:unsplit
+:split!
+:sv
+:spv
+:spo
+:sp
 :nmap
 :..
 :help
@@ -212,7 +221,6 @@ D
 :q
 
 # Search history (oldest to newest):
-/config
 /.confi
 /lib
 /usr
@@ -223,6 +231,8 @@ D
 /vifm
 /pic
 /.config
+/config
+/awe
 
 # Prompt history (oldest to newest):
 pstanzu
@@ -245,7 +255,7 @@ t/home/stanzu10/.local/share/vifm/Trash/000_light_greenBeautiful-Dragonfly-Macro
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
