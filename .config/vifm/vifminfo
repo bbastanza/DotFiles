@@ -18,8 +18,6 @@
 	..
 1611112922
 
-# Bookmarks:
-
 # TUI:
 al
 q1
@@ -30,43 +28,100 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/.config/vifm
-	colors
+d/home/stanzu10/Dev/git/stock/API/client/src
+	Modals
+5
+d/home/stanzu10/Dev/git/stock/API/client/src/Modals
+	ExpiredSession.js
+2
+d/home/stanzu10/Dev/git/stock/API/client/src
+	IndividualComponents
+4
+d/home/stanzu10/Dev/git/stock/API/client
+	public
+3
+d/home/stanzu10/Dev/git/stock/API
+	Middleware
+3
+d/home/stanzu10/Dev/git/stock/API/Middleware
+	DbConnectionMiddleware.cs
 1
-d/home/stanzu10/.config/vifm/colors
+d/home/stanzu10/Dev/git/stock/API
+	Middleware
+3
+d/home/stanzu10/Dev/git/stock
+	API
+4
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	challenges
+9
+d/home/stanzu10/Dev/challenges
+	HourGlassSum.js
+1
+d/home/stanzu10/Dev
+	challenges
+9
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/Documents
+	Resume
+4
+d/home/stanzu10/Documents/Resume
 	..
 0
-d/home/stanzu10/.config/vifm
+d/home/stanzu10/Documents
+	Resume
+4
+d/home/stanzu10/Documents/Resume
+	BrianBastanzaResumeNoRef.docx
+4
+d/home/stanzu10/Documents
+	Resume
+4
+d/home/stanzu10/Documents/Resume
+	BrianBastanzaResumeNoRef.docx
+4
+d/home/stanzu10/Documents
+	Plumpjack
+3
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	challenges
+9
+d/home/stanzu10/Dev/challenges
 	..
 0
-d/home/stanzu10/.config
-	google-chrome
+d/home/stanzu10/Dev
+	Scripts
+5
+d/home/stanzu10
+	Public
+7
+d/home/stanzu10/Public
+	..
+0
+d/home/stanzu10
+	Public
+7
+d/home
+	stanzu10
+1
+d/
+	lib64
 8
 d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	Language Logos
-3
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	Language Logos
-3
-d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	vifm
-41
-d/home/stanzu10/.config/vifm
-	..
-0
-d/home/stanzu10/.config
-	systemd
-35
-d/home/stanzu10
 	.config
 4
 d/home/stanzu10/.config
@@ -79,44 +134,50 @@ d/home/stanzu10/.config/vifm/colors
 	..
 0
 d/home/stanzu10/.config/vifm
-	..
-0
+	colors
+1
 d/home/stanzu10/.config
-	zoomus.conf
-20
+	vifm
+41
 d/home/stanzu10
-	.cfg
-4
-d/home/stanzu10/.cfg
-	..
-0
-d/home/stanzu10
-	.cfg
+	.config
 4
 d/home
 	stanzu10
 1
+d/
+	home
+5
+d/home
+	stanzu10
+1
 d/home/stanzu10
-	bin
-10
-d/home/stanzu10/bin
-	..
-0
-d/home/stanzu10
-	snap
-11
-d/home/stanzu10/snap
-	..
-0
-d/home/stanzu10
-	Downloads
+	.config
 4
-d/home/stanzu10/Downloads
+d/home/stanzu10/.config
+	vifm
+41
+d/home/stanzu10/.config/vifm
+	colors
+1
+d/home/stanzu10/.config/vifm/colors
 	..
 0
+d/home/stanzu10/.config/vifm
+	colors
+1
+d/home/stanzu10/.config
+	vifm
+41
 d/home/stanzu10
-	Downloads
+	.config
 4
+d/home
+	stanzu10
+1
+d/
+	home
+5
 d
 
 # Right window history (oldest to newest):
@@ -126,27 +187,51 @@ D/home/stanzu10/.config/vifm
 D
 
 # Command line history (oldest to newest):
+:nmap
+:h
 :..
+:help
+:wq
+:xxwq
+:view
+:fileviewer
+:fileviewer 0001.jpg
 :q
 
 # Search history (oldest to newest):
 /.confi
+/lib
+/usr
+/.conf
+/vi
+/.confug
+/fish
 /vifm
+/pic
+/.config
 
 # Prompt history (oldest to newest):
+pstanzu
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/stanzu10/.local/share/vifm/Trash/000_light_greenBeautiful-Dragonfly-Macro-Photos-Best.jpg.out.pp3
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/stanzu10/.local/share/vifm/Trash/000_tieconcept3.jpg.out.pp3
+	/home/stanzu10/Pictures/Wallpapers/tieconcept3.jpg.out.pp3
+t/home/stanzu10/.local/share/vifm/Trash/000_tieconcept2.jpg.pp3
+	/home/stanzu10/Pictures/Wallpapers/tieconcept2.jpg.pp3
+t/home/stanzu10/.local/share/vifm/Trash/000_light_greenBeautiful-Dragonfly-Macro-Photos-Best.jpg.out.pp3
+	/home/stanzu10/Pictures/Wallpapers/light_greenBeautiful-Dragonfly-Macro-Photos-Best.jpg.out.pp3
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
