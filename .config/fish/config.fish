@@ -43,6 +43,9 @@ alias mok="mocp -x"
 
 alias vv="vifm ."
 alias vim="nvim"
+
+alias compton="compton --config ~/.config/compton/compton.conf"
+
 # editor
 set EDITOR "nvim"
 
