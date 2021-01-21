@@ -8,7 +8,7 @@ This is a repository for my personal config files for my linux install. The conf
 * Fish Shell
 * Rofi Run Prompt
 * Compton Compositer
-* Vim
+* Neovim
 * MOC Music Player
 * VIFM
 

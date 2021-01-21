@@ -84,7 +84,7 @@ local altkey       = "Mod1"
 local terminal     = "kitty"
 local vi_focus     = false -- vi-like client focus - https://github.com/lcpz/awesome-copycats/issues/275
 local cycle_prev   = true -- cycle trough all previous client or just the first -- https://github.com/lcpz/awesome-copycats/issues/274
-local editor       = os.getenv("vim") or "vim"
+local editor       = os.getenv("nvim") or "nvim"
 local gui_editor   = os.getenv("code") or "emacs"
 local browser      = os.getenv("Brave-browser") or "firefox"
 local scrlocker    = "slock"
@@ -400,17 +400,21 @@ globalkeys = my_table.join(
     awful.key({ }, "XF86AudioMute", APW.ToggleMute,
         {description = "toggle mute", group = "hotkeys"}),
 
+    -- X screen locker
+    awful.key({ altkey, "Control" }, "l", function () os.execute(scrlocker) end,
+              {description = "lock screen", group = "hotkeys"}),
+
     -- User programs
     awful.key({ modkey, altkey }, "k", function () awful.util.spawn("xkill") end, -- 
               {description = "launch xkill", group = "user apps"}),
 
-    awful.key({ modkey }, "space", function () awful.util.spawn("rofi -show run -display-run 'Run: '") end, -- 
+    awful.key({ modkey, altkey }, "space", function () awful.util.spawn("rofi -show run -desktop -display-run 'term'") end, -- 
               {description = "launch Rofi", group = "user apps"}),
 
     awful.key({ modkey }, "Tab", function () awful.util.spawn("rofi -show window -show-icons -config ~/.config/rofi/themes/dt-center.rasi") end, -- 
               {description = "launch Rofi(window)", group = "user apps"}),
 
-    awful.key({ modkey, altkey }, "space", function () awful.util.spawn("rofi -show drun") end, -- 
+    awful.key({ modkey }, "space", function () awful.util.spawn("rofi -show drun") end, -- 
               {description = "launch Rofi(drun)", group = "user apps"}),
 
     awful.key({ modkey }, "v", function () awful.spawn("code") end,

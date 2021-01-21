@@ -1,4 +1,13 @@
-
+"      _                        _  ___  
+"  ___| |_ __ _ _ __  _____   _/ |/ _ \ 
+" / __| __/ _` | '_ \|_  / | | | | | | |
+" \__ \ || (_| | | | |/ /| |_| | | |_| |
+" |___/\__\__,_|_| |_/___|\__,_|_|\___/ 
+"                                      
+" full stack web developer
+" www.brianbastanza.me
+" https://github.com/bbastanza 
+"
 " Vim Settings
 syntax on
 set noerrorbells
@@ -32,25 +41,21 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
 Plug 'skammer/vim-css-color'
 Plug 'christoomey/vim-system-copy'
-Plug 'itchyny/lightline.vim'
 Plug 'ap/vim-css-color'
 Plug 'vifm/vifm.vim'
+Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-markdown'
 Plug 'vim-scripts/fountain.vim'
-Plug 'airblade/vim-gitgutter'
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
-
-" Git Gutter
-let g:gitgutter_enabled = 1
-let g:gitgutter_map_keys = 0
 
 " Colors
 colorscheme onedark
 
 " Lightline
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'jellybeans',
       \ }
 
 " Key Bindings
@@ -65,3 +70,4 @@ xnoremap J :move '>+1<CR>gv-gv
 map <C-n> :source ~/.config/nvim/init.vim<CR>
 map <C-v> :Vifm<CR>
 map <C-s> :write<CR>
+

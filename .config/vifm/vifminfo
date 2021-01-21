@@ -20,143 +20,14 @@
 
 # TUI:
 al
-q0
+q1
 v1
-ov
+oh
 m-1
 l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	README.md
-7
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	mdImages
-5
-d/home/stanzu10/Dev/git/stock/mdImages
-	screenshot.png
-8
-d/home/stanzu10/Dev/git/stock
-	mdImages
-5
-d/home/stanzu10/Dev/git
-	personal-website
-6
-d/home/stanzu10/Dev/git/personal-website
-	src
-3
-d/home/stanzu10/Dev/git/personal-website/src
-	images
-2
-d/home/stanzu10/Dev/git/personal-website/src/images
-	favicon.png
-4
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10/Dev/git
-	personal-website
-6
-d/home/stanzu10/Dev/git/personal-website
-	src
-3
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10/Dev/git
-	personal-website
-6
-d/home/stanzu10/Dev/git/personal-website
-	src
-3
-d/home/stanzu10/Dev/git/personal-website/src
-	pages
-3
-d/home/stanzu10/Dev/git/personal-website/src/pages
-	Portfolio.js
-3
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	README.md
-7
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	Core
-2
-d/home/stanzu10/Dev/git/stock/Core
-	..
-0
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API/client/src
-	IndividualComponents
-4
-d/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents
-	Pagination.js
-4
-d/home/stanzu10
-	Music
-5
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	nvim
-41
-d/home/stanzu10/.config/nvim
-	init.vim
-3
-d/home/stanzu10/.config
-	nvim
-41
-d/home/stanzu10/.config/nvim
-	init.vim
-3
-d/home/stanzu10
-	.config
-4
 d/home
 	stanzu10
 1
@@ -178,6 +49,135 @@ d/home/stanzu10/Dev/git/stock/Infrastructure
 d/home/stanzu10/Dev/git/stock/Infrastructure/Exceptions
 	ExistingUserException.cs
 2
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	nvim
+41
+d/home/stanzu10/.config/nvim
+	init.vim
+4
+d/home/stanzu10/.config/nvim/plugged/lightline.vim
+	colorscheme.md
+10
+d/home/stanzu10
+	Setup
+8
+d/home
+	stanzu10
+1
+d/home/stanzu10
+	Setup
+8
+d/home
+	stanzu10
+1
+d/home/stanzu10
+	Setup
+8
+d/home
+	stanzu10
+1
+d/
+	home
+5
+d/home
+	stanzu10
+1
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/Dev/git
+	twitter
+10
+d/home/stanzu10/Dev/git/twitter
+	API
+1
+d/home/stanzu10/Dev/git/twitter/API
+	Client
+1
+d/home/stanzu10/Dev/git/twitter/API/Client
+	src
+4
+d/home/stanzu10/Dev/git/twitter/API/Client/src
+	IndividualComponents
+4
+d/home/stanzu10/Dev/git/twitter/API/Client/src/IndividualComponents
+	TweetCard.js
+3
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	obj
+7
+d/home/stanzu10/Dev/git/stock/API/obj
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API
+	bin
+5
+d/home/stanzu10/Dev/git/stock/API/bin
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	Properties
+4
+d/home/stanzu10/Dev/git/stock/API/Properties
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	Models
+3
+d/home/stanzu10/Dev/git/stock/API/Models
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	Middleware
+2
+d/home/stanzu10/Dev/git/stock/API/Middleware
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	Middleware
+2
+d/home/stanzu10/Dev/git/stock/API/Middleware
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	Controllers
+1
+d/home/stanzu10/Dev/git/stock/API/Controllers
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	..
+0
+d/home/stanzu10/Dev/git/stock
+	stock.sln
+9
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	rc.lua
+8
 d
 
 # Right window history (oldest to newest):
@@ -194,8 +194,8 @@ D/home/stanzu10/Dev/git/stock/mdImages
 	..
 0
 D/home/stanzu10/Dev/git/stock
-	README.md
-7
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -246,8 +246,9 @@ D
 /pic
 /.config
 /awe
-/config
 /nvim
+/config
+/aweso
 
 # Prompt history (oldest to newest):
 pscreenshot.png

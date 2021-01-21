@@ -21,11 +21,12 @@ alias cfpush="config push"
 alias remove="sudo apt remove"
 alias install="sudo apt install"
 
+alias kit="kitty -e"
+
 alias fd="br"
 alias fh="br -h"
 alias dot="dotnet watch run"
 alias audit="npm audit fix"
-
 
 alias ls="exa -l --group-directories-first"
 alias la="exa -a --group-directories-first"
