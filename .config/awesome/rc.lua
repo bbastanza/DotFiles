@@ -265,13 +265,13 @@ globalkeys = my_table.join(
 
     -- Non-empty tag browsing
     awful.key({ altkey }, "Left", function () lain.util.tag_view_nonempty(-1) end,
-              {description = "view  previous nonempty", group = "tag"}),
+              {description = "view previous nonempty", group = "tag"}),
 
     awful.key({ altkey }, "Right", function () lain.util.tag_view_nonempty(1) end,
-              {description = "view  next nonempty", group = "tag"}),
+              {description = "view next nonempty", group = "tag"}),
 
     awful.key({ altkey, "Shift" }, "Tab", function () lain.util.tag_view_nonempty(1) end,
-              {description = "view  next nonempty", group = "tag"}),
+              {description = "view next nonempty", group = "tag"}),
 
     -- By direction client focus
     awful.key({ altkey }, "j",
@@ -594,6 +594,10 @@ awful.rules.rules = {
 
 -- kcolorchooser
     { rule = { instance = "kcolorchooser" },
+     properties = { floating = true, ontop = true } },
+
+-- eog
+    { rule = { instance = "eog" },
      properties = { floating = true, ontop = true } },
 
 -- pavumanager         

@@ -39,8 +39,11 @@ alias wolf="/home/stanzu10/Setup/AppImages/LibreWolf-84.0.2-1.x86_64.AppImage"
 
 alias moc="mocp"
 alias mok="mocp -x"
+
+alias vv="vifm ."
+alias vim="nvim"
 # editor
-set EDITOR "vim"
+set EDITOR "nvim"
 
 # kitty completion
 kitty + complete setup fish | source

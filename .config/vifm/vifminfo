@@ -28,78 +28,81 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home
-	stanzu10
-1
-d/
-	lib
-6
-d/home/stanzu10
-	Music
-5
-d/home/stanzu10/Music
-	..
-0
-d/home/stanzu10/bin
-	..
-0
 d/home/stanzu10/Dev/git
 	stock
 8
+d/home/stanzu10/Dev/git/stock
+	README.md
+7
 d/home/stanzu10
-	Music
-5
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10
-	Music
-5
-d/
-	lib
-6
-d/home/stanzu10
-	Music
-5
-d/home/stanzu10/Dev/git
-	..
-0
-d/home/stanzu10
-	Music
-5
-d/home/stanzu10/Dev/git
-	..
-0
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/Documents
-	Plumpjack
-3
-d/home/stanzu10/Documents/Plumpjack
-	hours.txt
-3
-d/home/stanzu10/Documents
-	Plumpjack
-3
-d/home/stanzu10
-	..
-0
-d/home
-	..
-0
-d/
-	home
-5
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/Documents
-	Plumpjack
-3
-d/home/stanzu10/Documents/Plumpjack
-	Summer2020.docx
+	Dev
 2
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	mdImages
+5
+d/home/stanzu10/Dev/git/stock/mdImages
+	screenshot.png
+8
+d/home/stanzu10/Dev/git/stock
+	mdImages
+5
+d/home/stanzu10/Dev/git
+	personal-website
+6
+d/home/stanzu10/Dev/git/personal-website
+	src
+3
+d/home/stanzu10/Dev/git/personal-website/src
+	images
+2
+d/home/stanzu10/Dev/git/personal-website/src/images
+	favicon.png
+4
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10/Dev/git
+	personal-website
+6
+d/home/stanzu10/Dev/git/personal-website
+	src
+3
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10/Dev/git
+	personal-website
+6
+d/home/stanzu10/Dev/git/personal-website
+	src
+3
+d/home/stanzu10/Dev/git/personal-website/src
+	pages
+3
+d/home/stanzu10/Dev/git/personal-website/src/pages
+	Portfolio.js
+3
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	README.md
+7
 d/home/stanzu10
 	Dev
 2
@@ -113,8 +116,8 @@ d/home/stanzu10/Dev/git/stock
 	Core
 2
 d/home/stanzu10/Dev/git/stock/Core
-	obj
-5
+	..
+0
 d/home/stanzu10/Dev/git/stock
 	API
 1
@@ -125,68 +128,78 @@ d/home/stanzu10/Dev/git/stock/API/client
 	src
 4
 d/home/stanzu10/Dev/git/stock/API/client/src
-	App.css
-9
-d/home/stanzu10/Dev/git/stock/API/client
-	src
+	IndividualComponents
 4
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock
-	API
+d/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents
+	Pagination.js
+4
+d/home/stanzu10
+	Music
+5
+d/home
+	stanzu10
 1
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev
-	git
-10
 d/home/stanzu10
 	.config
 4
 d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	themes
-4
-d/home/stanzu10/.config/awesome/themes
-	holo
-4
-d/home/stanzu10/.config/awesome/themes/holo
-	theme.lua
-2
+	nvim
+41
+d/home/stanzu10/.config/nvim
+	init.vim
+3
+d/home/stanzu10/.config
+	nvim
+41
+d/home/stanzu10/.config/nvim
+	init.vim
+3
 d/home/stanzu10
 	.config
 4
 d/home
 	stanzu10
 1
-d/
-	home
-5
-d/home/stanzu10/.config
-	awesome
-4
 d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	rc.lua
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+10
+d/home/stanzu10/Dev/git
+	stock
 8
+d/home/stanzu10/Dev/git/stock
+	Infrastructure
+3
+d/home/stanzu10/Dev/git/stock/Infrastructure
+	Exceptions
+1
+d/home/stanzu10/Dev/git/stock/Infrastructure/Exceptions
+	ExistingUserException.cs
+2
 d
 
 # Right window history (oldest to newest):
 D/home/stanzu10/.config/vifm
 	..
 0
+D/home/stanzu10/Dev/git
+	stock
+8
+D/home/stanzu10/Dev/git/stock
+	mdImages
+5
+D/home/stanzu10/Dev/git/stock/mdImages
+	..
+0
+D/home/stanzu10/Dev/git/stock
+	README.md
+7
 D
 
 # Command line history (oldest to newest):
+:!q
 :split
 :vsplit
 :osplit
@@ -219,6 +232,7 @@ D
 :vs
 :vw
 :q
+:mkdir mdImages
 
 # Search history (oldest to newest):
 /.confi
@@ -231,16 +245,21 @@ D
 /vifm
 /pic
 /.config
-/config
 /awe
+/config
+/nvim
 
 # Prompt history (oldest to newest):
+pscreenshot.png
+pscreenshot2.png
+pscreenshot3.png
 pstanzu
+pstockss.png
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/stanzu10/.local/share/vifm/Trash/000_light_greenBeautiful-Dragonfly-Macro-Photos-Best.jpg.out.pp3
+""/home/stanzu10/.local/share/vifm/Trash/000_expensess.png
 
 # Directory stack (oldest to newest):
 
@@ -251,11 +270,25 @@ t/home/stanzu10/.local/share/vifm/Trash/000_tieconcept2.jpg.pp3
 	/home/stanzu10/Pictures/Wallpapers/tieconcept2.jpg.pp3
 t/home/stanzu10/.local/share/vifm/Trash/000_light_greenBeautiful-Dragonfly-Macro-Photos-Best.jpg.out.pp3
 	/home/stanzu10/Pictures/Wallpapers/light_greenBeautiful-Dragonfly-Macro-Photos-Best.jpg.out.pp3
+t/home/stanzu10/.local/share/vifm/Trash/000_python.png
+	/home/stanzu10/Dev/git/stock/mdImages/python.png
+t/home/stanzu10/.local/share/vifm/Trash/000_html.png
+	/home/stanzu10/Dev/git/stock/mdImages/html.png
+t/home/stanzu10/.local/share/vifm/Trash/000_css.png
+	/home/stanzu10/Dev/git/stock/mdImages/css.png
+t/home/stanzu10/.local/share/vifm/Trash/000_sql.png
+	/home/stanzu10/Dev/git/stock/mdImages/sql.png
+t/home/stanzu10/.local/share/vifm/Trash/000_sql2.png
+	/home/stanzu10/Dev/git/stock/mdImages/sql2.png
+t/home/stanzu10/.local/share/vifm/Trash/000_README.md
+	/home/stanzu10/Dev/git/stock/API/client/README.md
+t/home/stanzu10/.local/share/vifm/Trash/000_expensess.png
+	/home/stanzu10/Dev/git/personal-website/src/images/expensess.png
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
