@@ -19,7 +19,7 @@
 1611112922
 
 # TUI:
-al
+ar
 q1
 v1
 oh
@@ -28,66 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	Infrastructure
-3
-d/home/stanzu10/Dev/git/stock/Infrastructure
-	Exceptions
-1
-d/home/stanzu10/Dev/git/stock/Infrastructure/Exceptions
-	ExistingUserException.cs
-2
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-10
-d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	nvim
-41
-d/home/stanzu10/.config/nvim
-	init.vim
-4
-d/home/stanzu10/.config/nvim/plugged/lightline.vim
-	colorscheme.md
-10
-d/home/stanzu10
-	Setup
-8
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	Setup
-8
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	Setup
-8
-d/home
-	stanzu10
-1
-d/
-	home
-5
 d/home
 	stanzu10
 1
@@ -178,6 +118,66 @@ d/home/stanzu10/.config
 d/home/stanzu10/.config/awesome
 	rc.lua
 8
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	rc.lua
+8
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	Middleware
+2
+d/home/stanzu10/Dev/git/stock/API/Middleware
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	obj
+7
+d/home/stanzu10/Dev/git/stock/API/obj
+	..
+0
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API/client/src
+	IndividualComponents
+4
+d/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents
+	UserHolding.js
+5
+d/home/stanzu10/Dev/git/stock/API/client/src
+	Modals
+5
+d/home/stanzu10/Dev/git/stock/API/client/src/Modals
+	Purchase.js
+4
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/.config
+	fish
+19
+d/home/stanzu10/.config/fish
+	config.fish
+3
+d/etc
+	acpi
+7
+d/etc/acpi
+	..
+0
 d
 
 # Right window history (oldest to newest):
@@ -196,6 +196,33 @@ D/home/stanzu10/Dev/git/stock/mdImages
 D/home/stanzu10/Dev/git/stock
 	..
 0
+D/home/stanzu10/Dev/git
+	stock
+8
+D/home/stanzu10/Dev
+	git
+10
+D/home/stanzu10
+	Dev
+2
+D/home
+	stanzu10
+1
+D/
+	etc
+4
+D/etc
+	acpi
+7
+D/etc/acpi
+	events
+1
+D/etc/acpi/events
+	..
+0
+D/etc/acpi
+	events
+1
 D
 
 # Command line history (oldest to newest):
@@ -235,13 +262,13 @@ D
 :mkdir mdImages
 
 # Search history (oldest to newest):
+/syst
 /.confi
 /lib
 /usr
 /.conf
 /vi
 /.confug
-/fish
 /vifm
 /pic
 /.config
@@ -249,6 +276,7 @@ D
 /nvim
 /config
 /aweso
+/fish
 
 # Prompt history (oldest to newest):
 pscreenshot.png

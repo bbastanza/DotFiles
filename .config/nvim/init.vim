@@ -61,6 +61,7 @@ let g:lightline = {
 " Key Bindings
 let mapleader=" "
 nnoremap <leader>. :vsplit ~/.config/nvim/init.vim<CR>
+nnoremap <silent><CR> :noh<CR><CR>
 nnoremap <C-h> <C-W>h
 nnoremap <C-j> <C-W>j
 nnoremap <C-k> <C-W>k

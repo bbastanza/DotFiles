@@ -21,6 +21,7 @@ alias cfpush="config push"
 alias remove="sudo apt remove"
 alias install="sudo apt install"
 
+alias slock="xautolock -detectsleep -time 10 -locker slock"
 alias kit="kitty -e"
 
 alias fd="br"
@@ -32,17 +33,14 @@ alias ls="exa -l --group-directories-first"
 alias la="exa -a --group-directories-first"
 alias ll="exa -la --group-directories-first"
 alias lss="exa --group-directories-first"
-
-alias evil="emacs -nw"
 alias ..="cd .."
-
-alias wolf="/home/stanzu10/Setup/AppImages/LibreWolf-84.0.2-1.x86_64.AppImage"
 
 alias moc="mocp"
 alias mok="mocp -x"
 
 alias vv="vifm ."
 alias vim="nvim"
+alias evil="emacs -nw"
 
 alias compton="compton --config ~/.config/compton/compton.conf"
 

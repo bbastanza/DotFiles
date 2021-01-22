@@ -713,7 +713,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --Autostart
 awful.spawn.with_shell(terminal)
 awful.spawn.with_shell("compton --config ~/.config/compton/compton.conf")
-awful.spawn.with_shell("slocker")
 awful.spawn.with_shell("libinput-gestures")
 awful.spawn.with_shell("setxkbmap -option caps:swapescape")
 awful.spawn.with_shell("blueman-applet")
