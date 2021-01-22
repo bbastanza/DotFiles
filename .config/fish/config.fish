@@ -40,6 +40,7 @@ alias mok="mocp -x"
 
 alias vv="vifm ."
 alias vim="nvim"
+alias svim="sudoedit"
 alias evil="emacs -nw"
 
 alias compton="compton --config ~/.config/compton/compton.conf"

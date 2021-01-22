@@ -76,9 +76,10 @@ local themes = {
     "rainbow",         -- 8
     "steamburn",       -- 9
     "vertex",          -- 10
+    "stanzu",          -- 11
 }
 
-local chosen_theme = themes[4]
+local chosen_theme = themes[11]
 local modkey       = "Mod4"
 local altkey       = "Mod1"
 local terminal     = "kitty"
@@ -89,7 +90,6 @@ local gui_editor   = os.getenv("code") or "emacs"
 local browser      = os.getenv("Brave-browser") or "firefox"
 local scrlocker    = "slock"
 
---"", "", "", "", "",  "", "" ♯♫	Ω⌨    〈 〉⪮‹/›
 awful.util.terminal = terminal
 awful.util.tagnames = { "  ", " ‹∕› ", " 球 ", "  ", "  ", " ♫ ", "  " }
 awful.layout.layouts = {
@@ -100,11 +100,11 @@ awful.layout.layouts = {
     --awful.layout.suit.tile.top,
     --awful.layout.suit.fair,
     --awful.layout.suit.fair.horizontal,
-    --awful.layout.suit.spiral,
+    awful.layout.suit.spiral,
     --awful.layout.suit.spiral.dwindle,
     --awful.layout.suit.max,
     --awful.layout.suit.max.fullscreen,
-    --awful.layout.suit.magnifier,
+    awful.layout.suit.magnifier,
     --awful.layout.suit.corner.nw,
     --awful.layout.suit.corner.ne,
     --awful.layout.suit.corner.sw,
@@ -630,11 +630,11 @@ awful.rules.rules = {
 
 -- vscode         
     { rule = { instance = "code" },
-      properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
+      properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
 
 -- rider         
     { rule = { instance = "rider" },
-      properties = { screen = 2, tag = awful.util.tagnames[2], switchtotag = true  } },
+      properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
 
 -- blueman-manager          
     { rule = { instance = "blueman-manager" },

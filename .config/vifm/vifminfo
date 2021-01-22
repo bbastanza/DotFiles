@@ -19,7 +19,7 @@
 1611112922
 
 # TUI:
-ar
+al
 q1
 v1
 oh
@@ -28,63 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/Dev/git
-	twitter
-10
-d/home/stanzu10/Dev/git/twitter
-	API
-1
-d/home/stanzu10/Dev/git/twitter/API
-	Client
-1
-d/home/stanzu10/Dev/git/twitter/API/Client
-	src
-4
-d/home/stanzu10/Dev/git/twitter/API/Client/src
-	IndividualComponents
-4
-d/home/stanzu10/Dev/git/twitter/API/Client/src/IndividualComponents
-	TweetCard.js
-3
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	obj
-7
-d/home/stanzu10/Dev/git/stock/API/obj
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API
-	bin
-5
-d/home/stanzu10/Dev/git/stock/API/bin
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
-	Properties
-4
-d/home/stanzu10/Dev/git/stock/API/Properties
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
-	Models
-3
-d/home/stanzu10/Dev/git/stock/API/Models
-	..
-0
 d/home/stanzu10/Dev/git/stock/API
 	Middleware
 2
@@ -178,6 +121,63 @@ d/etc
 d/etc/acpi
 	..
 0
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	public
+2
+d/home/stanzu10/Dev/git/stock/API/client/public
+	favicon.ico
+1
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+3
+d/home/stanzu10/Dev/git/stock/API/client/src
+	FixedComponents
+1
+d/home/stanzu10/Dev/git/stock/API/client/src/FixedComponents
+	DreamTraderNavbar.js
+1
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+3
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
 d
 
 # Right window history (oldest to newest):
