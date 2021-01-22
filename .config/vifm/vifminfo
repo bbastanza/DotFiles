@@ -29,18 +29,6 @@ r2
 
 # Left window history (oldest to newest):
 d/home/stanzu10/Dev/git/stock/API
-	Middleware
-2
-d/home/stanzu10/Dev/git/stock/API/Middleware
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
-	Middleware
-2
-d/home/stanzu10/Dev/git/stock/API/Middleware
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
 	Controllers
 1
 d/home/stanzu10/Dev/git/stock/API/Controllers
@@ -163,21 +151,33 @@ d/home/stanzu10/Dev/git/stock/API/client/src
 d/home/stanzu10/Dev/git/stock/API/client/src/FixedComponents
 	DreamTraderNavbar.js
 1
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock/API/client
-	src
+d/home/stanzu10
+	Documents
 3
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	themes
+4
+d/home/stanzu10/.config/awesome/themes
+	holo
+4
+d/home/stanzu10/.config/awesome/themes/holo
+	theme.lua
+2
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	themes
+4
+d/home/stanzu10/.config/awesome/themes
+	holo
+4
 d
 
 # Right window history (oldest to newest):
