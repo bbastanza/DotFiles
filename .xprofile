@@ -1,1 +1,3 @@
- xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "libinput Natural Scrolling Enabled" 1
+# set xinput for natural scrolling and two finger right click
+xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "libinput Natural Scrolling Enabled" 1
+xinput set-prop "DELL08AF:00 06CB:76AF Touchpad" "libinput Click Method Enabled" 0 1  
