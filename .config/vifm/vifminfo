@@ -28,42 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	rc.lua
-8
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	rc.lua
-8
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	Middleware
-2
-d/home/stanzu10/Dev/git/stock/API/Middleware
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
-	obj
-7
-d/home/stanzu10/Dev/git/stock/API/obj
-	..
-0
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
 d/home/stanzu10/Dev/git/stock/API/client
 	src
 4
@@ -177,6 +141,42 @@ d/home/stanzu10/.config/awesome/lain
 4
 d/home/stanzu10/.config/awesome/lain/widget
 	bat.lua
+4
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git
+	stock
+8
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API/client/src
+	FixedComponents
+1
+d/home/stanzu10/Dev/git/stock/API/client
+	src
 4
 d
 
