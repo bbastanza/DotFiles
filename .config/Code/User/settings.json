@@ -1,0 +1,58 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "python.pythonPath": "/usr/bin/python3",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 2,
+    "workbench.iconTheme": "vscode-seedling-icon-theme",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.wrapAttributes": "preserve",
+
+    "indentRainbow.colors": [
+        "rgba(37, 116, 136, .0)",
+        "rgba(255, 204, 102, .05)",
+        "rgba(37, 116, 136, .0)",
+        "rgba(255, 204, 102, .05)"
+    ],
+    "editor.fontFamily": "'Ubuntu Mono', 'Noto Sans','monospace', monospace, 'Droid Sans Fallback'",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "workbench.statusBar.visible": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.arrowParens": "avoid",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "always",
+    "prettier.tabWidth": 4,
+    "indentRainbow.errorColor": "#1e1e1e",
+    "workbench.colorTheme": "Halcyon",
+    "keyboard.dispatch": "keyCode",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#2d3b53",
+        "statusBar.foreground": "#b7df80",
+        "statusBar.noFolderBackground": "#333333",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "editor.minimap.enabled": false,
+    "html.format.contentUnformatted": "",
+    "html.format.extraLiners": "",
+    "files.autoSave": "off",
+    "editor.fontSize": 13,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/stanzu10/bin/nvim.appimage",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/stanzu10/.config/nvim/vscode/init.vim",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

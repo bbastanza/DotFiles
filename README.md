@@ -9,8 +9,10 @@ This is a repository for my personal config files for my linux install. The conf
 * Rofi Run Prompt
 * Compton Compositer
 * Neovim
+* VS Code
 * MOC Music Player
 * VIFM
+* Other System Configs (xorg, xinput)
 
 ![screenshot](https://github.com/bbastanza/dotfiles/blob/main/.config/screenshot.png)
 

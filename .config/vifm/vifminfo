@@ -28,54 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API/client/src
-	IndividualComponents
-4
-d/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents
-	UserHolding.js
-5
-d/home/stanzu10/Dev/git/stock/API/client/src
-	Modals
-5
-d/home/stanzu10/Dev/git/stock/API/client/src/Modals
-	Purchase.js
-4
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/.config
-	fish
-19
-d/home/stanzu10/.config/fish
-	config.fish
-3
-d/etc
-	acpi
-7
-d/etc/acpi
-	..
-0
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git
-	stock
-8
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
 d/home/stanzu10/Dev/git
 	stock
 8
@@ -176,8 +128,56 @@ d/home/stanzu10/Dev/git/stock/API/client/src
 	FixedComponents
 1
 d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
+	package.json
+6
+d/home/stanzu10/.config/nvim
+	..
+0
+d/home/stanzu10/.config
+	nvim
+41
+d/home/stanzu10
+	Pictures
+6
+d/home/stanzu10/Pictures
+	Wallpapers
+6
+d/home/stanzu10/Pictures/Wallpapers
+	..
+0
+d/home/stanzu10/Pictures
+	Wallpapers
+6
+d/home/stanzu10
+	Pictures
+6
+d/home/stanzu10/Pictures
+	Wallpapers
+6
+d/home/stanzu10/Pictures/Wallpapers
+	1002.jpg
+3
+d/home/stanzu10/Pictures
+	Random
+2
+d/home/stanzu10
+	Dev
+2
+d/home
+	stanzu10
+1
+d/
+	home
+5
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	node_modules
+1
 d
 
 # Right window history (oldest to newest):
@@ -258,8 +258,8 @@ D
 :vo
 :vs
 :vw
-:q
 :mkdir mdImages
+:q
 
 # Search history (oldest to newest):
 /syst
