@@ -21,7 +21,7 @@ alias cfpush="config push"
 alias remove="sudo apt remove"
 alias install="sudo apt install"
 
-alias slock="xautolock -detectsleep -time 10 -locker slock"
+alias slocker="xautolock -detectsleep -time 10 -locker slock"
 alias kit="kitty -e"
 
 alias fd="br"

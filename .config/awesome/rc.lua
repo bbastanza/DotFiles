@@ -403,7 +403,7 @@ globalkeys = my_table.join(
 
     -- X screen locker
     awful.key({ modkey, altkey }, "l", function () os.execute(scrlocker) end,
-              {description = "lock screen", group = "hotkeys"}),
+              {description = "lock screen", group = "user apps"}),
 
     -- User programs
     awful.key({ modkey, altkey }, "k", function () awful.util.spawn("xkill") end, -- 
@@ -580,7 +580,7 @@ awful.rules.rules = {
                      screen = awful.screen.preferred,
                      keys = clientkeys,
                      buttons = clientbuttons,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen,
+                     placement = awful.placement.no_overlap+awful.placement.no_offscreen+awful.placement.right,
                      size_hints_honor = false
                    }
     },

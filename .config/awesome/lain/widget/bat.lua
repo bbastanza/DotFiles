@@ -32,7 +32,7 @@ local function factory(args)
     local timeout     = args.timeout or 30
     local notify      = args.notify or "on"
     local full_notify = args.full_notify or notify
-    local n_perc      = args.n_perc or { 5, 10 }
+    local n_perc      = args.n_perc or { 3, 7, 12 }
     local batteries   = args.batteries or (args.battery and {args.battery}) or {}
     local ac          = args.ac or "AC0"
     local settings    = args.settings or function() end
@@ -77,7 +77,7 @@ local function factory(args)
         height  = 65,
         position = "bottom_right",
         opacity = .9,
-        timeout = 10,
+        timeout = 3,
         fg      = "#f7e09b",
         bg      = "#313131"
     }
@@ -217,7 +217,7 @@ local function factory(args)
                         preset = bat_notification_critical_preset,
                         replaces_id = bat.id
                     }).id
-                elseif tonumber(bat_now.perc) <= n_perc[2] then
+                elseif tonumber(bat_now.perc) <= n_perc[2] or tonumber(bat_now.perc) == n_perc[3] then
                     bat.id = naughty.notify({
                         preset = bat_notification_low_preset,
                         replaces_id = bat.id

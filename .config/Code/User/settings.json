@@ -24,7 +24,8 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "prettier.arrowParens": "avoid",
     "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
     },
     "prettier.printWidth": 120,
     "prettier.proseWrap": "always",
@@ -50,9 +51,15 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "vscode-neovim.neovimExecutablePaths.linux": "/home/stanzu10/bin/nvim.appimage",
-    "vscode-neovim.neovimInitVimPaths.linux": "/home/stanzu10/.config/nvim/vscode/init.vim",
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/stanzu10/bin/nvim.appimage",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/stanzu10/.config/nvim/vscode/init.vim",
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
