@@ -28,72 +28,33 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10
-	Dev
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	ShuffleArray.ts
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
 2
-d/home/stanzu10/Dev
-	SuccessCoaching
-5
-d/home/stanzu10/Dev/SuccessCoaching
-	GonzalezEric
-1
-d/home/stanzu10/Dev/SuccessCoaching/GonzalezEric
-	Clock-App
-1
-d/home/stanzu10/Dev/SuccessCoaching/GonzalezEric/Clock-App
-	Clock App
-1
-d/home/stanzu10/Dev/SuccessCoaching/GonzalezEric/Clock-App/Clock App
-	clock.js
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
 2
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	challenges
-8
-d/home/stanzu10/Dev/challenges
-	HourGlassSum.js
-1
-d/home/stanzu10/Dev
-	git
-9
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10
-	Dev
-2
+d/home/stanzu10/.config/nvim
+	..
+0
 d/home/stanzu10/.config
 	nvim
 39
-d/home/stanzu10/.config/nvim
-	init.vim
+d/home/stanzu10
+	.config
 4
-d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	lain
-3
-d/home/stanzu10/.config/awesome/lain
-	widget
-4
-d/home/stanzu10/.config/awesome/lain/widget
-	bat.lua
-4
-d/home/stanzu10/.config/awesome/lain
-	widget
-4
-d/home/stanzu10/.config/awesome
-	lain
-3
-d/home/stanzu10/.config
-	awesome
-4
+d/home
+	stanzu10
+1
+d/
+	home
+5
+d/home
+	stanzu10
+1
 d/home/stanzu10
 	Dev
 2
@@ -104,40 +65,52 @@ d/home/stanzu10/Dev/git
 	sortit
 8
 d/home/stanzu10/Dev/git/sortit
-	MDimages
-1
-d/home/stanzu10/Dev/git/sortit/MDimages
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
 	..
 0
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
+	Algorithms
 1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	ShuffleArray.ts
 3
 d/home/stanzu10/Dev/git
 	sortit
@@ -149,14 +122,32 @@ d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
+	Algorithms
 1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	ShuffleArray.ts
+3
+d/home/stanzu10/.config/nvim
+	..
+0
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
 2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	ShuffleArray.ts
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
 d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
@@ -164,20 +155,29 @@ d/home/stanzu10/Dev/git/sortit
 	Sort-It
 2
 d/home/stanzu10/Dev/git
-	sortit
-8
+	swapi
+10
 d/home/stanzu10/Dev
 	git
 9
-d/home/stanzu10
-	.config
-4
-d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	rc.lua
-8
+d/home/stanzu10/Dev/git
+	stock
+9
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	Controllers
+1
+d/home/stanzu10/Dev/git/stock/API/Controllers
+	StockDataController.cs
+1
+d/home/stanzu10/Dev/git/stock/API
+	Controllers
+1
+d/home/stanzu10/Dev/git/stock
+	API
+1
 d
 
 # Right window history (oldest to newest):
@@ -262,6 +262,7 @@ D
 :q
 
 # Search history (oldest to newest):
+/neo
 /conf
 /syst
 /.confi
@@ -319,7 +320,7 @@ t/home/stanzu10/.local/share/vifm/Trash/000_expensess.png
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1

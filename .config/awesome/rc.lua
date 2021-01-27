@@ -406,8 +406,11 @@ globalkeys = my_table.join(
               {description = "lock screen", group = "user apps"}),
 
     -- User programs
-    awful.key({ modkey, altkey }, "k", function () awful.util.spawn("xkill") end, -- 
+    awful.key({ modkey, altkey }, "k", function () awful.util.spawn("xkill") end,  
               {description = "launch xkill", group = "user apps"}),
+
+    awful.key({ modkey }, "q", function () awful.util.spawn("qutebrowser 'https://soundcloud.com'") end,  
+              {description = "launch soundcloud(qutebrowser)", group = "user apps"}),
 
     awful.key({ modkey, altkey }, "space", function () awful.util.spawn("rofi -show run -desktop -display-run 'term'") end, -- 
               {description = "launch Rofi", group = "user apps"}),

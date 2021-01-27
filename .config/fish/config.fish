@@ -29,11 +29,14 @@ alias fh="br -h"
 alias dot="dotnet watch run"
 alias audit="npm audit fix"
 
+alias cc="cd /home/stanzu10/.config"
+
 alias ls="exa -l --group-directories-first"
 alias la="exa -a --group-directories-first"
 alias ll="exa -la --group-directories-first"
 alias lss="exa --group-directories-first"
 alias ..="cd .."
+alias .="cd"
 
 alias moc="mocp"
 alias mok="mocp -x"
@@ -44,6 +47,12 @@ alias svim="sudoedit"
 alias evil="emacs -nw"
 
 alias compton="compton --config ~/.config/compton/compton.conf"
+
+function mkd
+    mkdir $argv
+    cd $argv
+end
+funcsave mkd
 
 # editor
 set EDITOR "nvim"
