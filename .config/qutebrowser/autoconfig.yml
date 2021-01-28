@@ -6,7 +6,7 @@
 
 config_version: 2
 settings:
-  url.default_page:
-    global: https//soundcloud.com
-  url.start_pages:
-    global: https://soundcloud.com
+  statusbar.hide:
+    global: true
+  tabs.show:
+    global: never

@@ -8,10 +8,12 @@
 " www.brianbastanza.me
 " https://github.com/bbastanza 
 "
-" Vim Settings
+" Nvim Settings
 syntax on
+set autochdir
 set noerrorbells
-set tabstop=4 softtabstop=4
+set tabstop=4 
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set wildmenu
@@ -31,34 +33,46 @@ set ignorecase
 set showcmd		
 set showmatch		
 set background=dark
-set cursorline
 set laststatus=2
 set cmdheight=1
+set guifont=Ubuntu\ Mono:h16
 "***************************
 
 " Plug
 call plug#begin('~/.vim/plugged')
 
+" Theme
 Plug 'joshdick/onedark.vim'
-Plug 'skammer/vim-css-color'
-Plug 'christoomey/vim-system-copy'
-Plug 'ap/vim-css-color'
-Plug 'vifm/vifm.vim'
-Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
-Plug 'tpope/vim-markdown'
-Plug 'vim-scripts/fountain.vim'
+
+" Nerdtree and Vifm
 Plug 'scrooloose/nerdtree'
+Plug 'Nopik/vim-nerdtree-direnter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
-Plug 'airblade/vim-gitgutter'
+Plug 'vifm/vifm.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+
+" IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'leafgarland/typescript-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'honza/vim-snippets'
 Plug 'liuchengxu/vim-which-key'
 Plug 'tpope/vim-commentary'
+Plug 'airblade/vim-gitgutter'
+Plug 'christoomey/vim-system-copy' 
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+" Syntax
+Plug 'sheerun/vim-polyglot'
+Plug 'ap/vim-css-color'
+Plug 'yuezk/vim-js'
+Plug 'vim-scripts/fountain.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'tpope/vim-markdown'
+Plug 'leafgarland/typescript-vim'
+Plug 'ianks/vim-tsx'
 
 call plug#end()
 "***************************
@@ -67,8 +81,9 @@ call plug#end()
 if (has("autocmd") && !has("gui_running"))
   augroup colorset
     autocmd!
-    let s:white = { "gui": "#ABB2BF", "cterm": "145", "cterm16" : "7" }
-    autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white }) " `bg` will not be styled since there is no `bg` setting
+    let s:white = { "gui": "#a4fff8", "cterm": "250", "cterm16" : "7" }
+    let s:black = { "gui": "#202020", "cterm": "234", "cterm16" : "0" }
+    autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white, "bg": s:black }) " `bg` will not be styled since there is no `bg` setting
   augroup END
 endif
 colorscheme onedark
@@ -81,8 +96,23 @@ let g:lightline = {
 "***************************
 
 " NerdTree
+let g:NERDTreeWinSize=30
+let NERDTreeMapOpenInTab='<ENTER>'
+autocmd BufWinEnter * silent NERDTreeMirror
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
+function! NERDTreeTogglePwd()
+  " If NERDTree is open in the current buffer
+  if (exists("t:NERDTreeBufName") && bufwinnr(t:NERDTreeBufName) != -1)
+    exe ":NERDTreeClose"
+  else
+    if (expand("%:t") != '')
+      exe ":NERDTreeFind"
+    else
+      exe ":NERDTreeToggle"
+    endif
+  endif
+endfunction
 "***************************
 
 " COC
@@ -91,11 +121,10 @@ let g:coc_global_extensions = [
   \ 'coc-pairs',
   \ 'coc-tsserver',
   \ 'coc-eslint', 
-  \ 'coc-prettier', 
   \ 'coc-json', 
   \ 'coc-css', 
   \ ]
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
+" command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? coc#_select_confirm() :
@@ -108,35 +137,59 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+let g:prettier#autoformat = 1
+let g:prettier#config#tab_width = 4
 let g:coc_snippet_next = '<tab>'
 "***************************
 
 " Key Bindings
 let mapleader=" "
+
+" Move to window with Space + Vim movement
+nnoremap <leader>h <C-W>h
+nnoremap <leader>j <C-W>j
+nnoremap <leader>k <C-W>k
+nnoremap <leader>l <C-W>l
+
 " Remove highlight on enter
 nnoremap <silent><CR> :noh<CR><CR>
-" Move to window with Ctrl + Vim movement
-nnoremap <C-h> <C-W>h
-nnoremap <C-j> <C-W>j
-nnoremap <C-k> <C-W>k
-nnoremap <C-l> <C-W>l
+
+" capital U for redo
 nnoremap U :redo<CR>
+
 " Move mutiple lines with capital KJ
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
-" More
+
+" Whichkey  
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
-nnoremap <leader>f  <Plug>(coc-format-selected)
-nnoremap <leader>t :NERDTreeToggle<CR>
+
+" open nerdtree in pwd
+nnoremap <leader>t :call NERDTreeTogglePwd()<cr>
+
+" comments
 nnoremap <leader>/ :Commentary<CR>
 vnoremap <leader>/ :Commentary<CR>
+
+" open vifm
 nnoremap <leader>v :Vifm<CR>
-nnoremap <leader>. :vsplit ../<CR>
-nnoremap <leader>wq :x<CR> " write quit
-nnoremap <leader>w :write<CR> " write
-nnoremap <leader>qq :q<CR> " quit
+nnoremap <leader><space> :tabnew<CR>
+
+" control jk for moveing through autocomplete
 inoremap <expr> <C-j> pumvisible() ? "\<C-n>" : coc#refresh()
 inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : coc#refresh()
+
+" normal ass shit
+nnoremap <leader>. :vsplit<CR>
+nnoremap <leader>x :x<CR> " write quit
+nnoremap <leader>w :write<CR> " write
+nnoremap <leader>q :q!<CR> " quit
 nnoremap <leader>s :source ~/.config/nvim/init.vim<CR>
 "***************************
+"
+" start Vifm on startup 
+autocmd VimEnter * NERDTree | wincmd p
 
+" coc prettier
+vmap <leader>p  <Plug>(coc-format-selected)
+nmap <leader>p  <Plug>(coc-format-selected)

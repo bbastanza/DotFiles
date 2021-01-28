@@ -28,24 +28,12 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	ShuffleArray.ts
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/.config/nvim
-	..
-0
 d/home/stanzu10/.config
 	nvim
-39
+37
 d/home/stanzu10
-	.config
-4
+	..
+0
 d/home
 	stanzu10
 1
@@ -62,107 +50,26 @@ d/home/stanzu10/Dev
 	git
 9
 d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	..
-0
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	ShuffleArray.ts
-3
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	ShuffleArray.ts
-3
-d/home/stanzu10/.config/nvim
-	..
-0
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	ShuffleArray.ts
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git
-	swapi
+	stock
 10
-d/home/stanzu10/Dev
-	git
-9
+d/home/stanzu10/Dev/git/stock
+	..
+0
 d/home/stanzu10/Dev/git
 	stock
-9
+10
+d/home/stanzu10/Dev/git/stock
+	..
+0
+d/home/stanzu10/Dev/git
+	stock
+10
+d/home/stanzu10/Dev/git/stock
+	..
+0
+d/home/stanzu10/Dev/git
+	stock
+10
 d/home/stanzu10/Dev/git/stock
 	API
 1
@@ -172,12 +79,105 @@ d/home/stanzu10/Dev/git/stock/API
 d/home/stanzu10/Dev/git/stock/API/Controllers
 	StockDataController.cs
 1
-d/home/stanzu10/Dev/git/stock/API
-	Controllers
+d/home/stanzu10
+	Pictures
+6
+d/home/stanzu10/.config
+	nvim
+37
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Pictures
+6
+d/home/stanzu10/.config
+	nvim
+37
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Desktop
 1
-d/home/stanzu10/Dev/git/stock
-	API
+d/home/stanzu10/.config/kitty
+	kitty.conf
 1
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Downloads
+4
+d/home/stanzu10/Dev/git
+	sortit
+9
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	App.tsx
+5
+d/home/stanzu10
+	Downloads
+4
+d/home/stanzu10/.config
+	nvim
+36
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Downloads
+4
+d/home/stanzu10/.config
+	nvim
+36
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Downloads
+4
+d/home/stanzu10/Dev/git
+	sortit
+9
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	App.tsx
+5
+d/home/stanzu10/.config/fish
+	..
+0
+d/home/stanzu10/.config
+	compton
+4
+d/home/stanzu10/.config/compton
+	compton.conf
+1
+d/home/stanzu10
+	Downloads
+4
+d/home/stanzu10/.config
+	compton
+4
+d/home/stanzu10/.config/compton
+	compton.conf
+1
+d/home/stanzu10/.config
+	nvim
+36
+d/home/stanzu10/.config/nvim
+	init.vim
+6
 d
 
 # Right window history (oldest to newest):
@@ -238,7 +238,6 @@ D
 :sp
 :nmap
 :..
-:help
 :wq
 :xxwq
 :view
@@ -260,6 +259,8 @@ D
 :vw
 :mkdir mdImages
 :q
+:?
+:help
 
 # Search history (oldest to newest):
 /neo
@@ -273,13 +274,17 @@ D
 /.confug
 /vifm
 /pic
-/.config
-/nvim
 /config
 /aweso
 /fish
 /comp
+/awesome
+/vim
+/.vim
+/.config
 /awe
+/awes
+/nvim
 
 # Prompt history (oldest to newest):
 pscreenshot.png
@@ -287,6 +292,7 @@ pscreenshot2.png
 pscreenshot3.png
 pstanzu
 pstockss.png
+pdoom-stanzu.el
 
 # Local filter history (oldest to newest):
 

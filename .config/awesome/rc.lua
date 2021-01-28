@@ -424,6 +424,9 @@ globalkeys = my_table.join(
     awful.key({ modkey }, "v", function () awful.spawn("code") end,
               {description = "launch Visual Studio Code", group = "user apps"}),
 
+    awful.key({ modkey }, "g", function () awful.spawn("gvim") end,
+              {description = "launch Goneovim", group = "user apps"}),
+
     awful.key({ modkey }, "r", function () awful.spawn("rider") end,
               {description = "launch Rider", group = "user apps"}),
     
@@ -587,6 +590,8 @@ awful.rules.rules = {
                      size_hints_honor = false
                    }
     },
+    
+-- find the wm instance with () => xprop WM_CLASS
 
 -- Titlebars
     { rule_any = { type = { "dialog", "normal" } },
@@ -616,6 +621,10 @@ awful.rules.rules = {
     { rule = { instance = "tidal-hifi" },
       properties = { screen = 1, tag = awful.util.tagnames[6], switchtotag = true  } },
 
+-- soundcloud(qutebrowser)         
+    { rule = { instance = "qutebrowser" },
+      properties = { screen = 1, tag = awful.util.tagnames[6], switchtotag = true  } },
+
 -- mocp         
     { rule = { instance = "gnome-terminal-server" },
       properties = { screen = 1, tag = awful.util.tagnames[6], switchtotag = true  } },
@@ -634,6 +643,10 @@ awful.rules.rules = {
 
 -- vscode         
     { rule = { instance = "code" },
+      properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
+
+-- goneovim         
+    { rule = { instance = "goneovim" },
       properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
 
 -- rider         
