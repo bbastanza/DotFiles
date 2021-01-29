@@ -28,21 +28,36 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/.config
-	nvim
-37
-d/home/stanzu10
-	..
-0
-d/home
-	stanzu10
-1
-d/
-	home
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/.config/nvim
+	coc-settings.json
 5
-d/home
-	stanzu10
-1
 d/home/stanzu10
 	Dev
 2
@@ -50,68 +65,35 @@ d/home/stanzu10/Dev
 	git
 9
 d/home/stanzu10/Dev/git
-	stock
-10
-d/home/stanzu10/Dev/git/stock
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	public
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/public
 	..
 0
-d/home/stanzu10/Dev/git
-	stock
-10
-d/home/stanzu10/Dev/git/stock
-	..
-0
-d/home/stanzu10/Dev/git
-	stock
-10
-d/home/stanzu10/Dev/git/stock
-	..
-0
-d/home/stanzu10/Dev/git
-	stock
-10
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	Controllers
-1
-d/home/stanzu10/Dev/git/stock/API/Controllers
-	StockDataController.cs
-1
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
 d/home/stanzu10
-	Pictures
-6
-d/home/stanzu10/.config
-	nvim
-37
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10
-	Pictures
-6
-d/home/stanzu10/.config
-	nvim
-37
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10
-	Desktop
-1
-d/home/stanzu10/.config/kitty
-	kitty.conf
-1
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10
-	Downloads
-4
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+9
 d/home/stanzu10/Dev/git
 	sortit
-9
+8
 d/home/stanzu10/Dev/git/sortit
 	Sort-It
 2
@@ -119,32 +101,26 @@ d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	App.tsx
-5
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
 d/home/stanzu10
-	Downloads
-4
+	Setup
+8
+d/home/stanzu10/Setup
+	..
+0
+d/home/stanzu10
+	Setup
+8
 d/home/stanzu10/.config
-	nvim
-36
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10
-	Downloads
-4
-d/home/stanzu10/.config
-	nvim
-36
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10
-	Downloads
+	awesome
 4
 d/home/stanzu10/Dev/git
 	sortit
-9
+8
 d/home/stanzu10/Dev/git/sortit
 	Sort-It
 2
@@ -152,29 +128,53 @@ d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	App.tsx
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	new.tsx
+6
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	insertionSort.ts
 5
-d/home/stanzu10/.config/fish
-	..
-0
-d/home/stanzu10/.config
-	compton
-4
-d/home/stanzu10/.config/compton
-	compton.conf
-1
-d/home/stanzu10
-	Downloads
-4
-d/home/stanzu10/.config
-	compton
-4
-d/home/stanzu10/.config/compton
-	compton.conf
-1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
 d/home/stanzu10/.config
 	nvim
-36
+37
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	insertionSort.ts
+5
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/.config
+	nvim
+37
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Setup
+8
 d/home/stanzu10/.config/nvim
 	init.vim
 6
@@ -248,7 +248,6 @@ D
 :dot
 :dotdirs
 :dotdir
-:h
 :directorys
 :dotfiles
 :wo
@@ -261,6 +260,11 @@ D
 :q
 :?
 :help
+:h
+:w new.js
+:! touch new.tsx
+:!touch new.tst
+:!touch new.js
 
 # Search history (oldest to newest):
 /neo
@@ -293,11 +297,12 @@ pscreenshot3.png
 pstanzu
 pstockss.png
 pdoom-stanzu.el
+pMinWaitingTime.ts
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/stanzu10/.local/share/vifm/Trash/000_expensess.png
+""/home/stanzu10/.local/share/vifm/Trash/002_new.js
 
 # Directory stack (oldest to newest):
 
@@ -322,6 +327,26 @@ t/home/stanzu10/.local/share/vifm/Trash/000_README.md
 	/home/stanzu10/Dev/git/stock/API/client/README.md
 t/home/stanzu10/.local/share/vifm/Trash/000_expensess.png
 	/home/stanzu10/Dev/git/personal-website/src/images/expensess.png
+t/home/stanzu10/.local/share/vifm/Trash/000_sammy.tsx
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/sammy.tsx
+t/home/stanzu10/.local/share/vifm/Trash/000_eric.js
+	/home/stanzu10/eric.js
+t/home/stanzu10/.local/share/vifm/Trash/000_new.js
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/new.js
+t/home/stanzu10/.local/share/vifm/Trash/001_new.js
+	/home/stanzu10/new.js
+t/home/stanzu10/.local/share/vifm/Trash/000_new.tsx
+	/home/stanzu10/new.tsx
+t/home/stanzu10/.local/share/vifm/Trash/000_resent.js
+	/home/stanzu10/resent.js
+t/home/stanzu10/.local/share/vifm/Trash/000_newnew.tsx
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms/newnew.tsx
+t/home/stanzu10/.local/share/vifm/Trash/001_new.tsx
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms/new.tsx
+t/home/stanzu10/.local/share/vifm/Trash/000_new.tst
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/new.tst
+t/home/stanzu10/.local/share/vifm/Trash/002_new.js
+	/home/stanzu10/.config/nvim/new.js
 
 # State:
 f

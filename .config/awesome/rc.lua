@@ -583,6 +583,8 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      focus = awful.client.focus.filter,
                      raise = true,
+                     x = 600,
+                     y = 300,
                      screen = awful.screen.preferred,
                      keys = clientkeys,
                      buttons = clientbuttons,
@@ -591,7 +593,7 @@ awful.rules.rules = {
                    }
     },
     
--- find the wm instance with () => xprop WM_CLASS
+-- find the wm instance with : xprop WM_CLASS
 
 -- Titlebars
     { rule_any = { type = { "dialog", "normal" } },

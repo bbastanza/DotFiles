@@ -24,9 +24,12 @@ alias install="sudo apt install"
 alias slocker="xautolock -detectsleep -time 10 -locker slock"
 alias kit="kitty -e"
 
-alias fd="br"
-alias fh="br -h"
+alias fd="fdfind"
+
+alias bh="br -h"
+
 alias dot="dotnet watch run"
+
 alias audit="npm audit fix"
 
 alias cc="cd /home/stanzu10/.config"
@@ -46,6 +49,9 @@ alias vim="nvim"
 alias svim="sudoedit"
 
 alias compton="compton --config ~/.config/compton/compton.conf"
+
+alias cat="bat"
+alias grep="rg"
 
 function mkd
     mkdir $argv

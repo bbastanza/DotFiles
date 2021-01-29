@@ -63,6 +63,8 @@ Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'christoomey/vim-system-copy' 
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'yegappan/mru'
+Plug 'mg979/vim-visual-multi'
 
 " Syntax
 Plug 'sheerun/vim-polyglot'
@@ -89,6 +91,10 @@ endif
 colorscheme onedark
 "***************************
 
+" MRU Recent Files
+let MRU_Open_File_Use_Tabs = 0
+"***************************
+
 " Lightline
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
@@ -101,7 +107,7 @@ let NERDTreeMapOpenInTab='<ENTER>'
 autocmd BufWinEnter * silent NERDTreeMirror
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
-function! NERDTreeTogglePwd()
+function! NERDTreeTogglePwdAndRefresh()
   " If NERDTree is open in the current buffer
   if (exists("t:NERDTreeBufName") && bufwinnr(t:NERDTreeBufName) != -1)
     exe ":NERDTreeClose"
@@ -112,6 +118,7 @@ function! NERDTreeTogglePwd()
       exe ":NERDTreeToggle"
     endif
   endif
+  exe ":NERDTreeRefreshRoot"
 endfunction
 "***************************
 
@@ -165,7 +172,7 @@ xnoremap J :move '>+1<CR>gv-gv
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 
 " open nerdtree in pwd
-nnoremap <leader>t :call NERDTreeTogglePwd()<cr>
+nnoremap <leader>t :call NERDTreeTogglePwdAndRefresh()<cr>
 
 " comments
 nnoremap <leader>/ :Commentary<CR>
@@ -181,10 +188,13 @@ inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : coc#refresh()
 
 " normal ass shit
 nnoremap <leader>. :vsplit<CR>
-nnoremap <leader>x :x<CR> " write quit
-nnoremap <leader>w :write<CR> " write
-nnoremap <leader>q :q!<CR> " quit
+nnoremap <leader>x :x<CR> 
+nnoremap <leader>w :write<CR> 
+nnoremap <leader>q :q!<CR> 
+nnoremap <leader><BS> :tabclose<CR>
 nnoremap <leader>s :source ~/.config/nvim/init.vim<CR>
+nnoremap <leader>r :MRU<CR>
+nnoremap <leader>m :GonvimMiniMap<CR>
 "***************************
 "
 " start Vifm on startup 
