@@ -16,7 +16,6 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
-set wildmenu
 set smartindent
 set colorcolumn=81
 set number relativenumber
@@ -34,7 +33,7 @@ set showcmd
 set showmatch		
 set background=dark
 set laststatus=2
-set cmdheight=1
+set cmdheight=2
 set guifont=Ubuntu\ Mono:h16
 "***************************
 
@@ -62,12 +61,10 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'christoomey/vim-system-copy' 
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'yegappan/mru'
 Plug 'mg979/vim-visual-multi'
 
 " Syntax
-Plug 'sheerun/vim-polyglot'
 Plug 'ap/vim-css-color'
 Plug 'yuezk/vim-js'
 Plug 'vim-scripts/fountain.vim'
@@ -127,11 +124,12 @@ let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-tsserver',
+  \ 'coc-prettier',
   \ 'coc-eslint', 
   \ 'coc-json', 
   \ 'coc-css', 
   \ ]
-" command! -nargs=0 Prettier :CocCommand prettier.formatFile
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? coc#_select_confirm() :
@@ -144,8 +142,6 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-let g:prettier#autoformat = 1
-let g:prettier#config#tab_width = 4
 let g:coc_snippet_next = '<tab>'
 "***************************
 
@@ -201,5 +197,10 @@ nnoremap <leader>m :GonvimMiniMap<CR>
 autocmd VimEnter * NERDTree | wincmd p
 
 " coc prettier
-vmap <leader>p  <Plug>(coc-format-selected)
-nmap <leader>p  <Plug>(coc-format-selected)
+nnoremap <leader>p :Prettier<CR>
+vnoremap <leader>p :Prettier<CR>
+" coc 
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)

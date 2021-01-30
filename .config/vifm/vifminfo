@@ -28,69 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/.config/nvim
-	coc-settings.json
-5
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-9
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	public
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/public
-	..
-0
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10
-	Dev
-2
-d/home/stanzu10/Dev
-	git
-9
 d/home/stanzu10/Dev/git
 	sortit
 8
@@ -178,6 +115,69 @@ d/home/stanzu10
 d/home/stanzu10/.config/nvim
 	init.vim
 6
+d/home/stanzu10
+	Setup
+8
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	insertionSort.ts
+5
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Array.tsx
+1
+d/home/stanzu10
+	Setup
+8
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Array.tsx
+1
+d/home/stanzu10
+	Setup
+8
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Array.tsx
+1
+d/home/stanzu10
+	README.md
+12
 d
 
 # Right window history (oldest to newest):
@@ -302,7 +302,7 @@ pMinWaitingTime.ts
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/stanzu10/.local/share/vifm/Trash/002_new.js
+""/home/stanzu10/.local/share/vifm/Trash/003_new.js
 
 # Directory stack (oldest to newest):
 
