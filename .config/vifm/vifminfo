@@ -28,6 +28,57 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	insertionSort.ts
+5
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	buttons.tsx
+2
+d/home/stanzu10/.config
+	nvim
+37
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Setup
+8
+d/home/stanzu10/.config/nvim
+	init.vim
+6
+d/home/stanzu10
+	Setup
+8
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	Algorithms
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
+	insertionSort.ts
+5
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Array.tsx
+1
+d/home/stanzu10
+	Setup
+8
 d/home/stanzu10/Dev/git
 	sortit
 8
@@ -41,143 +92,92 @@ d/home/stanzu10/Dev/git/sortit/Sort-It/src
 	components
 2
 d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
+	Array.tsx
+1
 d/home/stanzu10
 	Setup
 8
-d/home/stanzu10/Setup
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Array.tsx
+1
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/Documents
+	Resume
+4
+d/home/stanzu10/Documents/Resume
 	..
 0
 d/home/stanzu10
-	Setup
+	Documents
+3
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	App.tsx
+5
+d/home/stanzu10
+	Documents
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Array.tsx
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git
+	sortit
 8
 d/home/stanzu10/.config
-	awesome
+	kitty
+28
+d/home/stanzu10/.config/kitty
+	kitty.conf
+1
+d/home/stanzu10/.config
+	kitty
+28
+d/home/stanzu10
+	..
+0
+d/home/stanzu10/.config/nvim/config
+	..
+0
+d/home/stanzu10/.config/nvim
+	init.vim
+7
+d/home/stanzu10/.config/nvim/config
+	vanilla.vim
 4
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	new.tsx
-6
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	insertionSort.ts
-5
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/.config
-	nvim
-37
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	insertionSort.ts
-5
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
-2
-d/home/stanzu10/.config
-	nvim
-37
-d/home/stanzu10/.config/nvim
-	init.vim
-6
 d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/.config/nvim
-	init.vim
-6
-d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	insertionSort.ts
-5
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10
-	README.md
-12
+	..
+0
 d
 
 # Right window history (oldest to newest):
@@ -223,6 +223,15 @@ D/etc/acpi/events
 D/etc/acpi
 	events
 1
+D/home/stanzu10/.config
+	nvim
+36
+D/home/stanzu10/.config/nvim
+	config
+2
+D/home/stanzu10/.config/nvim/config
+	keymap.vim
+1
 D
 
 # Command line history (oldest to newest):
@@ -265,6 +274,11 @@ D
 :! touch new.tsx
 :!touch new.tst
 :!touch new.js
+:!mkdir config
+:!touch plug.vim
+:!touch keymap.vim
+:!touch vanilla.vim
+:!touch plugconfig.vim
 
 # Search history (oldest to newest):
 /neo
@@ -288,6 +302,7 @@ D
 /.config
 /awe
 /awes
+/kitt
 /nvim
 
 # Prompt history (oldest to newest):
