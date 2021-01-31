@@ -1,6 +1,16 @@
 " Key Bindings
 let mapleader=" "
 
+" Basic Commands
+nnoremap <leader>. :vsplit<CR>
+nnoremap <leader>, :split<CR>
+nnoremap <leader>x :x<CR> 
+nnoremap <leader>w :write<CR> 
+nnoremap <leader>q :q!<CR> 
+nnoremap <leader><space> :tabnew<CR>
+nnoremap <leader><BS> :tabclose<CR>
+nnoremap <leader>s :source ~/.config/nvim/init.vim<CR>
+
 " Move to window with Space + Vim movement
 nnoremap <leader>h <C-W>h
 nnoremap <leader>j <C-W>j
@@ -17,9 +27,6 @@ nnoremap U :redo<CR>
 xnoremap K :move '<-2<CR>gv-gv
 xnoremap J :move '>+1<CR>gv-gv
 
-" Whichkey  
-nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
-
 " open nerdtree in pwd
 nnoremap <leader>t :call NERDTreeTogglePwdAndRefresh()<cr>
 
@@ -27,37 +34,35 @@ nnoremap <leader>t :call NERDTreeTogglePwdAndRefresh()<cr>
 nnoremap <leader>/ :Commentary<CR>
 vnoremap <leader>/ :Commentary<CR>
 
-" open vifm
-nnoremap <leader>v :Vifm<CR>
-nnoremap <leader><space> :tabnew<CR>
-
 " control jk for moveing through autocomplete
 inoremap <expr> <C-j> pumvisible() ? "\<C-n>" : coc#refresh()
 inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : coc#refresh()
 
-" normal ass shit
-nnoremap <leader>. :vsplit<CR>
-nnoremap <leader>x :x<CR> 
-nnoremap <leader>w :write<CR> 
-nnoremap <leader>q :q!<CR> 
-nnoremap <leader><BS> :tabclose<CR>
-nnoremap <leader>s :source ~/.config/nvim/init.vim<CR>
-nnoremap <leader>r :MRU<CR>
-nnoremap <leader>m :GonvimMiniMap<CR>
+" Buffers
 nnoremap <leader>b :ls<CR>
 nnoremap <leader>n :bn<CR>
-"***************************
 
-" coc prettier
+" ALE Linter
+nnoremap <leader>e :ALEToggle<CR>
+vnoremap <leader>e :ALEToggle<CR>
+
+" CtrlP Fuzzy Finder
+nnoremap <leader>f :CtrlP<CR>
+vnoremap <leader>f :CtrlP<CR>
+
+" Coc Prettier
 nnoremap <leader>p :Prettier<CR>
 vnoremap <leader>p :Prettier<CR>
 nnoremap <leader>d :call <SID>show_documentation()<CR>
 
-" ALE
-nnoremap <leader>e :ALEToggle<CR>
-" nnoremap <leader>d :ALEHover<CR>
-vnoremap <leader>e :ALEToggle<CR>
+" MiniMap 
+nnoremap <leader>m :GonvimMiniMap<CR>
 
-" CtrlP
-nnoremap <leader>f :CtrlP<CR>
-vnoremap <leader>f :CtrlP<CR>
+" MRU Recent Files 
+nnoremap <leader>r :MRU<CR>
+
+" Vifm
+nnoremap <leader>v :Vifm<CR>
+
+" Whichkey  
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
