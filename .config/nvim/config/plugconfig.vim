@@ -82,3 +82,6 @@ let g:ale_sign_error = '✘'
 let g:ale_sign_warning = '⇶'
 let g:ale_set_highlights = 1
 let g:ale_sign_column_always = 1
+
+" Comfortable Motion
+let g:comfortable_motion_no_default_key_mappings = 1 

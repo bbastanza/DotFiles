@@ -35,6 +35,8 @@ Plug 'tpope/vim-markdown'
 Plug 'leafgarland/typescript-vim'
 Plug 'ianks/vim-tsx'
 
+Plug 'yuttie/comfortable-motion.vim'
+
 call plug#end()
 "***************************
 

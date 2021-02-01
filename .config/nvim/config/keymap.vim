@@ -6,6 +6,7 @@ nnoremap <leader>. :vsplit<CR>
 nnoremap <leader>, :split<CR>
 nnoremap <leader>x :x<CR> 
 nnoremap <leader>w :write<CR> 
+nnoremap <C-s> :wa<CR> 
 nnoremap <leader>q :q!<CR> 
 nnoremap <leader><space> :tabnew<CR>
 nnoremap <leader><BS> :tabclose<CR>
@@ -21,6 +22,7 @@ nnoremap <leader>l <C-W>l
 nnoremap <silent><CR> :noh<CR><CR>
 
 " capital U for redo
+nnoremap <C-s> :wa<CR> 
 nnoremap U :redo<CR>
 
 " Move mutiple lines with capital KJ
@@ -37,6 +39,13 @@ vnoremap <leader>/ :Commentary<CR>
 " control jk for moveing through autocomplete
 inoremap <expr> <C-j> pumvisible() ? "\<C-n>" : coc#refresh()
 inoremap <expr> <C-k> pumvisible() ? "\<C-p>" : coc#refresh()
+
+" Scrolling
+nnoremap <silent> <C-j> :call comfortable_motion#flick(100)<CR>
+nnoremap <silent> <C-k> :call comfortable_motion#flick(-100)<CR>
+
+noremap <ScrollWheelDown> :call comfortable_motion#flick(100)<CR>
+noremap <ScrollWheelUp>   :call comfortable_motion#flick(-100)<CR>
 
 " Buffers
 nnoremap <leader>b :ls<CR>

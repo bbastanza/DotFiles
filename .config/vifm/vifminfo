@@ -29,101 +29,140 @@ r2
 
 # Left window history (oldest to newest):
 d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
+	Array.tsx
+1
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	components
+2
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Footer.js
 2
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	insertionSort.ts
-5
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	buttons.tsx
+	components
 2
-d/home/stanzu10/.config
-	nvim
-37
-d/home/stanzu10/.config/nvim
-	init.vim
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git
+	stock
+9
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
 6
-d/home/stanzu10
-	Setup
-8
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API/client/src
+	FixedComponents
+1
+d/home/stanzu10/Dev/git/stock/API/client/src/FixedComponents
+	Footer.js
+2
+d/home/stanzu10/Dev/git/stock/API/client/src
+	App.css
+9
 d/home/stanzu10/.config/nvim
-	init.vim
+	..
+0
+d/home/stanzu10/.config
+	awesome
+4
+d/home/stanzu10/.config/awesome
+	rc.lua
+9
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers
+	..
+0
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	helpers
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	helpers
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+2
+d/home/stanzu10/Dev/git
+	stock
+9
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
 6
-d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
+d/home/stanzu10/Dev/git/stock/API/client
 	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	Algorithms
-1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms
-	insertionSort.ts
-5
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10
-	Setup
-8
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/Documents
-	Resume
 4
-d/home/stanzu10/Documents/Resume
+d/home/stanzu10/Dev/git/stock/API/client/src
+	App.css
+9
+d/home/stanzu10
 	..
 0
+d/home
+	stanzu10
+1
 d/home/stanzu10
-	Documents
-3
+	..
+0
+d/home
+	stanzu10
+1
+d/
+	home
+5
+d/home
+	stanzu10
+1
+d/home/stanzu10
+	Dev
+2
+d/home/stanzu10/Dev
+	git
+9
+d/home/stanzu10/Dev/git
+	stock
+9
+d/home/stanzu10/Dev/git/stock
+	API
+1
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API/client/src
+	IndividualComponents
+4
+d/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents
+	DotAnimation.js
+2
+d/home/stanzu10/Dev/git/stock/API/client/src
+	IndividualComponents
+4
+d/home/stanzu10/Dev/git/stock/API/client
+	src
+4
+d/home/stanzu10/Dev/git/stock/API
+	client
+6
+d/home/stanzu10/Dev/git/stock
+	API
+1
 d/home/stanzu10/Dev/git
 	sortit
 8
@@ -133,51 +172,12 @@ d/home/stanzu10/Dev/git/sortit
 d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	App.tsx
-5
-d/home/stanzu10
-	Documents
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
 	components
 2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
+	Footer.tsx
 3
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/.config
-	kitty
-28
-d/home/stanzu10/.config/kitty
-	kitty.conf
-1
-d/home/stanzu10/.config
-	kitty
-28
-d/home/stanzu10
-	..
-0
-d/home/stanzu10/.config/nvim/config
-	..
-0
-d/home/stanzu10/.config/nvim
-	init.vim
-7
-d/home/stanzu10/.config/nvim/config
-	vanilla.vim
-4
-d/home/stanzu10
-	..
-0
 d
 
 # Right window history (oldest to newest):
@@ -279,6 +279,11 @@ D
 :!touch keymap.vim
 :!touch vanilla.vim
 :!touch plugconfig.vim
+:!touch reverseArray.ts
+:!mkdir helpers
+:!touch calculateTimeDelay
+:!touch buttonClass.ts
+:!touch bubbleswap.ts
 
 # Search history (oldest to newest):
 /neo
@@ -296,7 +301,6 @@ D
 /aweso
 /fish
 /comp
-/awesome
 /vim
 /.vim
 /.config
@@ -304,6 +308,7 @@ D
 /awes
 /kitt
 /nvim
+/awesome
 
 # Prompt history (oldest to newest):
 pscreenshot.png
@@ -313,11 +318,20 @@ pstanzu
 pstockss.png
 pdoom-stanzu.el
 pMinWaitingTime.ts
+pbubblesort.ts
+pshufflearray.ts
+pshuffleArray.ts
+pinsertionSort.ts
+pbubbleSort.ts
+pcalculateTimeDelay.ts
+pDrNavbar.js
+pDotAnimation.tsx
+pFooter.tsx
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/stanzu10/.local/share/vifm/Trash/003_new.js
+""/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents/DotAnimation.js
 
 # Directory stack (oldest to newest):
 
@@ -362,6 +376,20 @@ t/home/stanzu10/.local/share/vifm/Trash/000_new.tst
 	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/new.tst
 t/home/stanzu10/.local/share/vifm/Trash/002_new.js
 	/home/stanzu10/.config/nvim/new.js
+t/home/stanzu10/.local/share/vifm/Trash/000_buttons.tsx
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/buttons.tsx
+t/home/stanzu10/.local/share/vifm/Trash/000_reverseArray.ts
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms/reverseArray.ts
+t/home/stanzu10/.local/share/vifm/Trash/000_Bubblesort(1).ts
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms/Bubblesort(1).ts
+t/home/stanzu10/.local/share/vifm/Trash/000_Bubblesort.js
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms/Bubblesort.js
+t/home/stanzu10/.local/share/vifm/Trash/000_insertionSort.js
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/Algorithms/insertionSort.js
+t/home/stanzu10/.local/share/vifm/Trash/000_calculateTimeDelay
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers/calculateTimeDelay
+t/home/stanzu10/.local/share/vifm/Trash/000_DreamTraderNavbar.js
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/DreamTraderNavbar.js
 
 # State:
 f
