@@ -28,141 +28,51 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/stanzu10/Dev/git/sortit/MDimages
+	typescript-react.png
+2
+d/home/stanzu10/Dev/git/sortit
+	README.md
+4
 d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
 	Array.tsx
 1
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Footer.js
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
+d/home/stanzu10/.config/nvim/config
+	plugconfig.vim
 3
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git
-	stock
-9
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API/client/src
-	FixedComponents
-1
 d/home/stanzu10/Dev/git/stock/API/client/src/FixedComponents
-	Footer.js
-2
-d/home/stanzu10/Dev/git/stock/API/client/src
-	App.css
-9
-d/home/stanzu10/.config/nvim
 	..
 0
 d/home/stanzu10/.config
-	awesome
-4
-d/home/stanzu10/.config/awesome
-	rc.lua
-9
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers
-	..
-0
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	helpers
-3
+	nvim
+35
+d/home/stanzu10/.config/nvim
+	coc-settings.json
+6
 d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	helpers
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git
-	stock
-9
-d/home/stanzu10/Dev/git/stock
-	API
-1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API/client/src
-	App.css
-9
+d/home/stanzu10/.config
+	nvim
+35
+d/home/stanzu10/.config/nvim
+	init.vim
+7
 d/home/stanzu10
 	..
 0
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	..
-0
-d/home
-	stanzu10
-1
-d/
-	home
-5
-d/home
-	stanzu10
-1
-d/home/stanzu10
-	Dev
+d/home/stanzu10/.config
+	nvim
+35
+d/home/stanzu10/.config/nvim
+	config
 2
-d/home/stanzu10/Dev
-	git
-9
-d/home/stanzu10/Dev/git
-	stock
-9
-d/home/stanzu10/Dev/git/stock
-	API
+d/home/stanzu10/.config/nvim/config
+	keymap.vim
 1
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API/client/src
-	IndividualComponents
-4
-d/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents
-	DotAnimation.js
+d/home/stanzu10/.config/nvim
+	config
 2
-d/home/stanzu10/Dev/git/stock/API/client/src
-	IndividualComponents
-4
-d/home/stanzu10/Dev/git/stock/API/client
-	src
-4
-d/home/stanzu10/Dev/git/stock/API
-	client
-6
-d/home/stanzu10/Dev/git/stock
-	API
-1
 d/home/stanzu10/Dev/git
 	sortit
 8
@@ -173,11 +83,101 @@ d/home/stanzu10/Dev/git/sortit/Sort-It
 	src
 3
 d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	components
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Footer.tsx
+	helpers
 3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers
+	calculateTimeDelay.ts
+3
+d/home/stanzu10/.config/nvim/config
+	keymap.vim
+1
+d/home/stanzu10/.config/nvim
+	config
+2
+d/home/stanzu10/.config
+	goneovim
+11
+d/home/stanzu10/.config/goneovim
+	setting.toml
+1
+d/home/stanzu10
+	.vscode
+30
+d/home/stanzu10/.vscode
+	extensions
+1
+d/home/stanzu10/.vscode/extensions
+	..
+0
+d/home/stanzu10/.vscode
+	extensions
+1
+d/home/stanzu10
+	.vscode
+30
+d/home
+	stanzu10
+1
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	Code
+2
+d/home/stanzu10/.config/Code
+	User
+12
+d/home/stanzu10/.config/Code/User
+	settings.json
+6
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	nvim
+30
+d/home/stanzu10/.config/nvim
+	plugged
+3
+d/home/stanzu10/.config/nvim/plugged
+	..
+0
+d/home/stanzu10/.config/nvim
+	vscode
+5
+d/home/stanzu10/.config/nvim/vscode
+	..
+0
+d/home/stanzu10/.config/nvim
+	snippets
+4
+d/home/stanzu10/.config/nvim/snippets
+	..
+0
+d/home/stanzu10/.config/nvim
+	config
+2
+d/home/stanzu10/.config/nvim/config
+	keymap.vim
+1
+d/home/stanzu10/.config/nvim
+	autoload
+1
+d/home/stanzu10/.config/nvim/autoload
+	autoload
+1
+d/home/stanzu10/.config/nvim/autoload/autoload
+	plug.vim
+1
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	nvim
+30
+d/home/stanzu10/.config/nvim
+	init.vim
+9
 d
 
 # Right window history (oldest to newest):
@@ -235,10 +235,6 @@ D/home/stanzu10/.config/nvim/config
 D
 
 # Command line history (oldest to newest):
-:!q
-:split
-:vsplit
-:osplit
 :unsplit
 :split!
 :sv
@@ -284,6 +280,11 @@ D
 :!touch calculateTimeDelay
 :!touch buttonClass.ts
 :!touch bubbleswap.ts
+:!touch interfaces.ts
+:!touch something.tsx
+:!mkdir goneovim
+:!touch setting.toml
+:!mkdir sessions
 
 # Search history (oldest to newest):
 /neo
@@ -300,18 +301,21 @@ D
 /config
 /aweso
 /fish
-/comp
 /vim
 /.vim
-/.config
 /awe
 /awes
 /kitt
-/nvim
 /awesome
+/comp
+/!mkidr goneovim
+/gone
+/vs
+/.config
+/code
+/nvim
 
 # Prompt history (oldest to newest):
-pscreenshot.png
 pscreenshot2.png
 pscreenshot3.png
 pstanzu
@@ -327,11 +331,12 @@ pcalculateTimeDelay.ts
 pDrNavbar.js
 pDotAnimation.tsx
 pFooter.tsx
+pscreenshot.png
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/stanzu10/Dev/git/stock/API/client/src/IndividualComponents/DotAnimation.js
+""/home/stanzu10/.local/share/vifm/Trash/000_something.tsx
 
 # Directory stack (oldest to newest):
 
@@ -390,11 +395,13 @@ t/home/stanzu10/.local/share/vifm/Trash/000_calculateTimeDelay
 	/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers/calculateTimeDelay
 t/home/stanzu10/.local/share/vifm/Trash/000_DreamTraderNavbar.js
 	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/DreamTraderNavbar.js
+t/home/stanzu10/.local/share/vifm/Trash/000_something.tsx
+	/home/stanzu10/Dev/git/sortit/Sort-It/src/components/something.tsx
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

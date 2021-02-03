@@ -5,60 +5,26 @@ let g:ctrlp_map = ''
 
 " MRU Recent Files
 let MRU_Open_File_Use_Tabs = 0
-"***************************
 
 " Lightline
 let g:lightline = {
       \ 'colorscheme': 'jellybeans',
       \ }
-"***************************
-
-" NerdTree
-let g:NERDTreeWinSize=30
-let NERDTreeMapOpenInTab='<ENTER>'
-autocmd BufWinEnter * silent NERDTreeMirror
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
-    \ quit | endif
-function! NERDTreeTogglePwdAndRefresh()
-  if (exists("t:NERDTreeBufName") && bufwinnr(t:NERDTreeBufName) != -1)
-    exe ":NERDTreeClose"
-  else
-    if (expand("%:t") != '')
-      exe ":NERDTreeFind"
-    else
-      exe ":NERDTreeToggle"
-    endif
-  endif
-  exe ":NERDTreeRefreshRoot"
-endfunction
-
-" nerdtree ignore 
-let g:NERDTreeIgnore = ['^build$']
-let g:NERDTreeIgnore = ['^node_modules$']
 
 " start Nerdtree on startup 
-autocmd VimEnter * NERDTree | wincmd p
-"***************************
+autocmd VimEnter * :CocCommand explorer 
 
 " COC
 let g:coc_global_extensions = [
   \ 'coc-snippets',
-  \ 'coc-pairs',
-  \ 'coc-tsserver',
+  \ 'coc-emmet',
   \ 'coc-prettier',
+  \ 'coc-vimlsp',
+  \ 'coc-explorer',
+  \ 'coc-tsserver',
   \ 'coc-json', 
   \ 'coc-css', 
   \ ]
-
-function! s:show_documentation()
-  if (index(['vim','help'], &filetype) >= 0)
-    execute 'h '.expand('<cword>')
-  elseif (coc#rpc#ready())
-    call CocActionAsync('doHover')
-  else
-    execute '!' . &keywordprg . " " . expand('<cword>')
-  endif
-endfunction
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? coc#_select_confirm() :
@@ -75,13 +41,47 @@ let g:coc_snippet_next = '<tab>'
 
 " Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-"***************************
 
-" ALE
-let g:ale_sign_error = '✘'
-let g:ale_sign_warning = '⇶'
-let g:ale_set_highlights = 1
-let g:ale_sign_column_always = 1
+" GitGutter
+let g:gitgutter_map_keys = 0
 
 " Comfortable Motion
 let g:comfortable_motion_no_default_key_mappings = 1 
+
+" Startify
+let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_lists = [
+          \ { 'type': 'files',     'header': ['   Files']            },
+          \ { 'type': 'sessions',  'header': ['   Sessions']       },
+          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']      },
+          \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
+          \ ]
+let g:startify_bookmarks = [
+            \ { 'g': '~/Dev/git' },
+            \ { 's': '~/Dev/git/sortit/Sort-It/src' },
+            \ { 'n': '~/.config/nvim' },
+            \ { 'a': '~/.config/awesome' },
+            \ { 't': '~/.config/kitty/kitty.conf' },
+            \ { 'f': '~/.config/fish/config.fish' },
+            \ { 'f': '~/.config/compton/compton.conf' },
+            \ { 'c': '~/.config' },
+            \ ]
+let g:startify_session_delete_buffers = 1
+let g:startify_change_to_dir = 1
+let g:startify_fortune_use_unicode = 1
+let g:startify_session_persistence = 1
+let g:startify_enable_special = 0
+let g:startify_custom_header = [
+        \ '',
+        \ '',
+        \ '',
+        \ '',
+        \ '          ███╗    ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗    ███╗',
+        \ '          ██╔╝    ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║    ╚██║',
+        \ '          ██║     ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║     ██║',
+        \ '          ██║     ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║     ██║',
+        \ '          ███╗    ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║    ███║',
+        \ '          ╚══╝    ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝    ╚══╝',
+        \ '',
+        \]
+      

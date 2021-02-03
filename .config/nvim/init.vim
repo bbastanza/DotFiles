@@ -18,10 +18,7 @@ source $HOME/.config/nvim/config/keymap.vim
 if (has("autocmd") && !has("gui_running"))
   augroup colorset
     autocmd!
-
     let s:white = { "gui": "#9acfd1", "cterm": "145", "cterm16" : "7" }
-
-
     let s:black = { "gui": "#202020", "cterm": "234", "cterm16" : "0" }
     autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white, "bg": s:black }) " `bg` will not be styled since there is no `bg` setting
   augroup END

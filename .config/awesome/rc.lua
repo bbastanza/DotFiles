@@ -4,8 +4,10 @@
 / __| __/ _` | '_ \|_  / | | | | | | |
 \__ \ || (_| | | | |/ /| |_| | | |_| |
 |___/\__\__,_|_| |_/___|\__,_|_|\___/ 
-  AwesomeWM rc.lua
-  www.brianbastanza.me
+
+ full stack web developer
+ www.brianbastanza.me
+ https://github.com/bbastanza 
 --
 
 --]]
@@ -583,8 +585,6 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      focus = awful.client.focus.filter,
                      raise = true,
-                     x = 600,
-                     y = 300,
                      screen = awful.screen.preferred,
                      keys = clientkeys,
                      buttons = clientbuttons,
@@ -606,6 +606,10 @@ awful.rules.rules = {
 -- gnome-calculator
     { rule = { instance = "gnome-calculator" },
      properties = { floating = true, ontop = true } },
+
+-- gnome-calculator
+    { rule = { instance = "screenrec" },
+     properties = { floating = true, ontop = false } },
 
 -- kcolorchooser
     { rule = { instance = "kcolorchooser" },

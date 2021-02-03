@@ -39,7 +39,7 @@ alias la="exa -a --group-directories-first"
 alias ll="exa -la --group-directories-first"
 alias lss="exa --group-directories-first"
 alias ..="cd .."
-alias .="cd"
+alias c="cd"
 
 alias moc="mocp"
 alias mok="mocp -x"
