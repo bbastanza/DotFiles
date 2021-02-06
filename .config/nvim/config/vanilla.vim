@@ -1,31 +1,29 @@
 " Nvim Settings
 syntax on
-set encoding=UTF-8
 set autochdir
-set noerrorbells
-set so=3
-set tabstop=2  
-set softtabstop=3  
-set shiftwidth=4  
-set expandtab  
-set smartindent  
 set colorcolumn=81  
-set number   
-set nowrap  
-set smartcase  
+set cmdheight=2
+set encoding=UTF-8
+set expandtab  
+set guifont=Ubuntu\ Mono\ Nerd\ Font\ Complete:h13
+set hidden
+set ic
+set ignorecase		
+set laststatus=1
+set mouse=a		
+set noerrorbells
 set noswapfile  
 set nobackup 
+set nowrap  
+set number   
+set so=4
+set shiftwidth=4  
+set showmatch		
+set smartcase  
+set smartindent  
+set softtabstop=4 
+set tabstop=4  
+set updatetime=300
 set undodir=~/.vim/undodir 
 set undofile
-set incsearch
-set ic
-set hidden
-set mouse=a		
-set ignorecase		
-set showcmd		
-set showmatch		
-set background=dark
-set laststatus=1
-set cmdheight=2
-set guifont=Ubuntu\ Mono\ Nerd\ Font\ Complete:h14
 "***************************

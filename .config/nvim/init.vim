@@ -13,8 +13,9 @@ source $HOME/.config/nvim/config/vanilla.vim
 source $HOME/.config/nvim/config/plug.vim
 source $HOME/.config/nvim/config/plugconfig.vim
 source $HOME/.config/nvim/config/keymap.vim
+source $HOME/.config/nvim/config/fzf.vim
 
-"" Theme
+" Theme
 if (has("autocmd") && !has("gui_running"))
   augroup colorset
     autocmd!

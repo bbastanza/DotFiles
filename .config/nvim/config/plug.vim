@@ -9,9 +9,13 @@ Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
-Plug 'yegappan/mru'
 Plug 'mg979/vim-visual-multi'
 Plug 'jiangmiao/auto-pairs'
+
+" Fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 
 " Syntax
 Plug 'yuezk/vim-js'
@@ -26,9 +30,8 @@ Plug 'tpope/vim-markdown'
 Plug 'liuchengxu/vim-which-key'
 Plug 'christoomey/vim-system-copy' 
 Plug 'yuttie/comfortable-motion.vim'
-Plug 'vifm/vifm.vim'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-startify'
+
 
 call plug#end()
 "***************************

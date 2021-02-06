@@ -28,36 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git/sortit/MDimages
-	typescript-react.png
-2
-d/home/stanzu10/Dev/git/sortit
-	README.md
-4
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/components
-	Array.tsx
-1
-d/home/stanzu10/.config/nvim/config
-	plugconfig.vim
-3
-d/home/stanzu10/Dev/git/stock/API/client/src/FixedComponents
-	..
-0
-d/home/stanzu10/.config
-	nvim
-35
-d/home/stanzu10/.config/nvim
-	coc-settings.json
-6
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/.config
-	nvim
-35
-d/home/stanzu10/.config/nvim
-	init.vim
-7
 d/home/stanzu10
 	..
 0
@@ -177,7 +147,37 @@ d/home/stanzu10/.config
 30
 d/home/stanzu10/.config/nvim
 	init.vim
-9
+10
+d/home/stanzu10/Dev/git
+	sortit
+8
+d/home/stanzu10/Dev/git/sortit
+	Sort-It
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It
+	src
+3
+d/home/stanzu10/Dev/git/sortit/Sort-It/src
+	App.css
+4
+d/home/stanzu10/.local/share/vifm/Trash
+	..
+0
+d/home/stanzu10/.local/share/vifm
+	Trash
+1
+d/home/stanzu10/.local/share
+	vifm
+34
+d/home/stanzu10
+	.config
+4
+d/home/stanzu10/.config
+	fish
+4
+d/home/stanzu10/.config/fish
+	config.fish
+3
 d
 
 # Right window history (oldest to newest):
@@ -231,7 +231,7 @@ D/home/stanzu10/.config/nvim
 2
 D/home/stanzu10/.config/nvim/config
 	keymap.vim
-1
+2
 D
 
 # Command line history (oldest to newest):
@@ -300,7 +300,6 @@ D
 /pic
 /config
 /aweso
-/fish
 /vim
 /.vim
 /awe
@@ -314,6 +313,8 @@ D
 /.config
 /code
 /nvim
+/fis
+/fish
 
 # Prompt history (oldest to newest):
 pscreenshot2.png

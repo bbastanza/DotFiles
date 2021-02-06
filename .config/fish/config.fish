@@ -1,5 +1,5 @@
 # fish greeting
-set -g -x fish_greeting ' '
+set -g -x fish_greeting ''
 
 # alias
 alias nvade="ninvaders"
@@ -22,6 +22,10 @@ alias remove="sudo apt remove"
 alias install="sudo apt install"
 
 alias slocker="xautolock -detectsleep -time 10 -locker slock"
+
+alias swapcaps="setxkbmap -option caps:swapescape"
+ 
+
 alias kit="kitty -e"
 
 alias fd="fdfind"
@@ -39,7 +43,6 @@ alias la="exa -a --group-directories-first"
 alias ll="exa -la --group-directories-first"
 alias lss="exa --group-directories-first"
 alias ..="cd .."
-alias c="cd"
 
 alias moc="mocp"
 alias mok="mocp -x"
@@ -51,8 +54,10 @@ alias svim="sudoedit"
 alias compton="compton --config ~/.config/compton/compton.conf"
 
 alias cat="bat"
+
 alias grep="rg"
 
+# Function
 function mkd
     mkdir $argv
     cd $argv
@@ -64,3 +69,4 @@ set EDITOR "nvim"
 
 # kitty completion
 kitty + complete setup fish | source
+
