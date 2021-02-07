@@ -25,12 +25,14 @@ Plug 'leafgarland/typescript-vim'
 Plug 'ianks/vim-tsx'
 Plug 'ap/vim-css-color'
 Plug 'tpope/vim-markdown'
+Plug 'tbastos/vim-lua'
 
 " Other
 Plug 'liuchengxu/vim-which-key'
 Plug 'christoomey/vim-system-copy' 
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'mhinz/vim-startify'
+Plug 'vim-scripts/Tabmerge'
 
 
 call plug#end()

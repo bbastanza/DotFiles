@@ -375,17 +375,17 @@ globalkeys = my_table.join(
         {description = "toggle wibox", group = "awesome"}),
 
     -- Brightness
-    awful.key({ }, "XF86MonBrightnessUp", function () os.execute("xbacklight -inc 7") end,
-              {description = "Brightness Up", group = "hotkeys"}),
-
-    awful.key({ modkey }, "F12", function () os.execute("xbacklight -inc 7") end,
-              {description = "Brightness Up", group = "hotkeys"}),
-
     awful.key({ }, "XF86MonBrightnessDown", function () os.execute("xbacklight -dec 7") end,
-              {description = "Brightness Down(alternate)", group = "hotkeys"}),
+              {description = "Brightness Down(alternate)", group = "display"}),
+
+    awful.key({ }, "XF86MonBrightnessUp", function () os.execute("xbacklight -inc 7") end,
+              {description = "Brightness Up", group = "display"}),
 
     awful.key({ modkey }, "F11", function () os.execute("xbacklight -dec 7") end,
-              {description = "Brightness Down(alternate)", group = "hotkeys"}),
+              {description = "Brightness Down(alternate)", group = "display"}),
+
+    awful.key({ modkey }, "F12", function () os.execute("xbacklight -inc 7") end,
+              {description = "Brightness Up", group = "display"}),
 
     -- APW Hotkeys (Audio Volume)
     awful.key({ }, "XF86AudioRaiseVolume", APW.Up,
@@ -586,6 +586,7 @@ awful.rules.rules = {
                      focus = awful.client.focus.filter,
                      raise = true,
                      screen = awful.screen.preferred,
+                     awful.client.setslave,
                      keys = clientkeys,
                      buttons = clientbuttons,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen+awful.placement.right,
@@ -601,7 +602,7 @@ awful.rules.rules = {
 
 -- Floating windows
     { rule = { floating = true },
-      properties = { ontop = true } },
+      properties = { ontop = true, x = 600, y = 300 } },
 
 -- gnome-calculator
     { rule = { instance = "gnome-calculator" },
