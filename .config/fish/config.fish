@@ -18,18 +18,10 @@ alias cfadd="config add -u"
 alias cfcommit="config commit -m"
 alias cfpush="config push"
 
-alias x1="xrandr --auto"
-alias x2="xrandr --auto && xrandr --output DP-2 --above eDP-1"
-
 alias remove="sudo apt remove"
 alias install="sudo apt install"
 
 alias slocker="xautolock -detectsleep -time 10 -locker slock"
-
-alias swapcaps="setxkbmap -option caps:swapescape"
- 
-
-alias kit="kitty -e"
 
 alias fd="fdfind"
 

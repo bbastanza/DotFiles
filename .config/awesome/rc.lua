@@ -602,14 +602,14 @@ awful.rules.rules = {
 
 -- Floating windows
     { rule = { floating = true },
-      properties = { ontop = true, x = 600, y = 300 } },
+      properties = { ontop = true, x = 400 } },
 
 -- gnome-calculator
     { rule = { instance = "gnome-calculator" },
      properties = { floating = true, ontop = true } },
 
--- gnome-calculator
-    { rule = { instance = "screenrec" },
+-- kazam
+    { rule = { instance = "kazam" },
      properties = { floating = true, ontop = false } },
 
 -- kcolorchooser

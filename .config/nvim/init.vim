@@ -15,20 +15,28 @@ source $HOME/.config/nvim/config/plugconfig.vim
 source $HOME/.config/nvim/config/keymap.vim
 source $HOME/.config/nvim/config/fzf.vim
 
+autocmd BufCreate * :wshada!
+autocmd VimEnter * :CocCommand explorer 
+
 " Theme
-if (has("autocmd") && !has("gui_running"))
-  augroup colorset
+augroup colorset
     autocmd!
-    let s:white = { "gui": "#9acfd1", "cterm": "145", "cterm16" : "7" }
-    let s:black = { "gui": "#202020", "cterm": "234", "cterm16" : "0" }
+        let s:white = { "gui": "#bacfd4", "cterm": "145", "cterm16" : "7" }
+        let s:black = { "gui": "#232323", "cterm": "234", "cterm16" : "0" }
     autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white, "bg": s:black }) " `bg` will not be styled since there is no `bg` setting
-  augroup END
-endif
+augroup END
+
+set termguicolors
 colorscheme onedark
-"***************************
 
+" Installed Colors
+" ayu, onedark, nord, sonokai
 
+" The configuration options should be placed before `colorscheme sonokai`.
+" let g:sonokai_style = 'shusia'
+" let g:sonokai_enable_italic = 1
+" let g:sonokai_disable_italic_comment = 1
 
-
-
+" let ayucolor="mirage" " for mirage version of theme
+" let ayucolor="dark"   " for dark version of theme
 

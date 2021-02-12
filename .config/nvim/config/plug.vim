@@ -1,9 +1,14 @@
 " Plug
 call plug#begin('~/.vim/plugged')
 
-" Theme
+" Themes
 Plug 'joshdick/onedark.vim'
+Plug 'sainnhe/sonokai'
+Plug 'tomasiser/vim-code-dark'
 Plug 'itchyny/lightline.vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'tomasr/molokai'
+Plug 'ayu-theme/ayu-vim'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -11,10 +16,12 @@ Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'mg979/vim-visual-multi'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-fugitive'
 
 " Fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'lvht/fzf-mru'
 Plug 'airblade/vim-rooter'
 
 " Syntax
@@ -33,7 +40,7 @@ Plug 'christoomey/vim-system-copy'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'mhinz/vim-startify'
 Plug 'vim-scripts/Tabmerge'
-
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
 "***************************
