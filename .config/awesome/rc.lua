@@ -602,7 +602,7 @@ awful.rules.rules = {
 
 -- Floating windows
     { rule = { floating = true },
-      properties = { ontop = true, x = 400 } },
+      properties = { ontop = true, x = 600 } },
 
 -- gnome-calculator
     { rule = { instance = "gnome-calculator" },

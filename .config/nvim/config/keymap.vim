@@ -8,6 +8,7 @@ nnoremap <silent><leader>x :x<CR>
 nnoremap <silent><leader>; $
 nnoremap <silent><leader>c ~h
 nnoremap <silent><leader>ww :write<CR> 
+nnoremap <silent>Y y$
 nnoremap <silent><leader>w :write<CR> 
 nnoremap <silent><leader>q :q!<CR> 
 nnoremap <silent><leader>n :tabnew<CR>:CocCommand explorer<CR>
@@ -16,8 +17,8 @@ nnoremap <silent><leader>O O<Esc>j
 nnoremap <silent><leader><BS> :tabclose<CR>
 nnoremap <silent><leader>t :tabnext<CR>
 nnoremap <silent>U :redo<CR>
-nnoremap <silent>J 10j
-nnoremap <silent>K 10k
+nnoremap <silent>J 5j
+nnoremap <silent>K 5k
 nnoremap <silent>H 10h
 nnoremap <silent>L 10l
 nnoremap <silent><C-l> :5winc ><CR>

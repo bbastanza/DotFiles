@@ -17,6 +17,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'mg979/vim-visual-multi'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 
 " Fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -33,6 +34,7 @@ Plug 'ianks/vim-tsx'
 Plug 'ap/vim-css-color'
 Plug 'tpope/vim-markdown'
 Plug 'tbastos/vim-lua'
+Plug 'OrangeT/vim-csharp'
 
 " Other
 Plug 'liuchengxu/vim-which-key'

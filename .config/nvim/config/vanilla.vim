@@ -1,8 +1,9 @@
+"
 " Nvim Settings
 syntax on
 set autochdir
 set colorcolumn=81  
-set cmdheight=2
+set cmdheight=1
 set encoding=UTF-8
 set expandtab  
 set guifont=Ubuntu\ Mono\ Nerd\ Font\ Complete:h13
@@ -15,7 +16,7 @@ set noswapfile
 set noshowmode
 set nobackup 
 set nowrap  
-set number 
+set number relativenumber
 set so=4
 set shiftwidth=4  
 set showmatch		
