@@ -9,6 +9,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'tomasr/molokai'
 Plug 'ayu-theme/ayu-vim'
+Plug 'KeitaNakamura/neodark.vim'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -45,5 +46,7 @@ Plug 'vim-scripts/Tabmerge'
 Plug 'vimwiki/vimwiki'
 
 call plug#end()
-"***************************
 
+" Plug Install
+" sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       " https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'

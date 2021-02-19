@@ -16,21 +16,16 @@ let g:lightline = {
     \   'left': [ [ 'mode', 'paste' ],
     \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
     \ },
-    \ 'component': {
-    \   'lineinfo': '%3l:%<',
-    \ },
     \ 'component_function': {
-    \   'fileformat': 'LightlineFileformat',
-    \   'filetype': 'LightlineFiletype',
     \   'gitbranch': 'FugitiveHead'
     \ },
     \ 'mode_map': {
-        \ 'n' : 'N',
-        \ 'i' : 'I',
-        \ 'R' : 'R',
-        \ 'v' : 'V',
-        \ 'V' : 'VL',
-        \ "\<C-v>": 'VB',
+        \ 'n' : 'Normal',
+        \ 'i' : 'Insert',
+        \ 'R' : 'Replace',
+        \ 'v' : 'Visual',
+        \ 'V' : 'V Line',
+        \ "\<C-v>": 'V Block',
     \ },
     \ }
 
@@ -67,7 +62,6 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<tab>'
-highlight link CocErrorHighlight Blue
 
 " Startify
 let g:startify_session_dir = '~/.config/nvim/session'
@@ -88,6 +82,7 @@ let g:startify_bookmarks = [
     \ { 'co': '~/.config/compton/compton.conf' },
     \ { 'cc': '~/.config' },
     \ ]
+
 let g:startify_session_delete_buffers = 1
 let g:startify_change_to_dir = 1
 let g:startify_fortune_use_unicode = 1

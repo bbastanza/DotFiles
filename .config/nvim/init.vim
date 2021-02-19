@@ -19,17 +19,21 @@ autocmd BufCreate * :wshada!
 autocmd VimEnter * :CocCommand explorer 
 
 " Theme
+set termguicolors
+
 augroup colorset
     autocmd!
         let s:white = { "gui": "#bacfd4", "cterm": "145", "cterm16" : "7" }
-        let s:black = { "gui": "#232323", "cterm": "234", "cterm16" : "0" }
+        let s:black = { "gui": "#242424", "cterm": "234", "cterm16" : "0" }
     autocmd ColorScheme * call onedark#set_highlight("Normal", { "fg": s:white, "bg": s:black }) " `bg` will not be styled since there is no `bg` setting
 augroup END
 
-set termguicolors
+let g:onedark_termcolors = 256  
+let g:onedark_terminal_italics = 1
+
 colorscheme onedark
 
-" Installed Colors
+" highlight Cursor gui=reverse ctermfg=white ctermbg=LightGreen
 " ayu, onedark, nord, sonokai
 
 " The configuration options should be placed before `colorscheme sonokai`.

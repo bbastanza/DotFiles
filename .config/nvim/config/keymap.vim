@@ -49,7 +49,7 @@ xnoremap J :move '>+1<CR>gv-gv
 " Coc 
 " Explorer
 nnoremap <silent><leader>e :CocCommand explorer<CR>
-nnoremap <leader>E coc#refresh()
+nnoremap <leader>E :call coc#refresh()<CR>
 " Prettier
 nnoremap <leader>p :Prettier<CR>
 vnoremap <leader>p :Prettier<CR>
@@ -66,14 +66,14 @@ inoremap <silent><expr> <C-j> pumvisible() ? "\<C-n>" : coc#refresh()
 inoremap <silent><expr> <C-k> pumvisible() ? "\<C-p>" : coc#refresh()
 
 " Scrolling
-nnoremap <silent> <C-j> :call comfortable_motion#flick(100)<CR>
-nnoremap <silent> <C-k> :call comfortable_motion#flick(-100)<CR>
+nnoremap <silent> <C-j> :call comfortable_motion#flick(150)<CR>
+nnoremap <silent> <C-k> :call comfortable_motion#flick(-150)<CR>
 
 " CtrlP Fuzzy Finder
 nnoremap <silent><leader>r :FZFMru<CR>
 
-noremap <ScrollWheelDown> :call comfortable_motion#flick(100)<CR>
-noremap <ScrollWheelUp>   :call comfortable_motion#flick(-100)<CR>
+nnoremap <C-E> :call comfortable_motion#flick(40)<CR>
+nnoremap <C-Y> :call comfortable_motion#flick(-40)<CR>
 
 " Buffer 
 nnoremap <silent><leader>bb :Buffers<CR>

@@ -423,10 +423,10 @@ globalkeys = my_table.join(
     awful.key({ modkey }, "space", function () awful.util.spawn("rofi -show drun") end, -- 
               {description = "launch Rofi(drun)", group = "user apps"}),
 
-    awful.key({ modkey }, "v", function () awful.spawn("code") end,
+    awful.key({ modkey }, "c", function () awful.spawn("code") end,
               {description = "launch Visual Studio Code", group = "user apps"}),
 
-    awful.key({ modkey }, "g", function () awful.spawn("/home/stanzu10/Setup/AppImages/Goneovim-0.4.9-linux/goneovim") end,
+    awful.key({ modkey }, "v", function () awful.spawn("/home/stanzu10/Setup/AppImages/Goneovim-0.4.9-linux/goneovim") end,
               {description = "launch Goneovim", group = "user apps"}),
 
     awful.key({ modkey }, "r", function () awful.spawn("rider") end,

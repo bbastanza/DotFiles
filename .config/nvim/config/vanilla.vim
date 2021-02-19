@@ -1,4 +1,4 @@
-"
+
 " Nvim Settings
 syntax on
 set autochdir
@@ -15,7 +15,8 @@ set noerrorbells
 set noswapfile  
 set noshowmode
 set nobackup 
-set nowrap  
+set nowrap 
+set textwidth=100
 set number relativenumber
 set so=4
 set shiftwidth=4  
@@ -25,7 +26,6 @@ set smartindent
 set softtabstop=4 
 set tabstop=4  
 set updatetime=300
-set undodir=~/.vim/undodir 
 set undofile
 set spelllang=en_us
 "***************************
@@ -34,4 +34,5 @@ hi clear SpellBad
 hi clear SpellCap
 hi clear SpellRare
 hi clear SpellLocal
+
 
