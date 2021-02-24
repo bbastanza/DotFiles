@@ -74,6 +74,7 @@ let g:startify_lists = [
 
 let g:startify_bookmarks = [
     \ { 'g': '~/Dev/git' },
+    \ { 'ch': '~/Dev/challenges' },
     \ { 'w': '~/vimwiki/index.wiki' },
     \ { 'n': '~/.config/nvim' },
     \ { 'a': '~/.config/awesome' },

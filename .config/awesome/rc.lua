@@ -93,7 +93,7 @@ local browser      = os.getenv("Brave-browser") or "firefox"
 local scrlocker    = "slock"
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "  ", " ‹∕› ", " 球 ", "  ", "  ", " ♫ ", "  " }
+awful.util.tagnames = { "  ", " ❴❵ ", " ∰ ", "  ", "  ", " ♫ ", "  " }
 awful.layout.layouts = {
     awful.layout.suit.corner.nw,
     --awful.layout.suit.corner.ne,
@@ -651,7 +651,7 @@ awful.rules.rules = {
 -- vscode         
     { rule = { instance = "code" },
       properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
-
+      
 -- goneovim         
     { rule = { instance = "goneovim" },
       properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
