@@ -30,9 +30,4 @@ set undofile
 set spelllang=en_us
 "***************************
 
-hi clear SpellBad
-hi clear SpellCap
-hi clear SpellRare
-hi clear SpellLocal
-
 

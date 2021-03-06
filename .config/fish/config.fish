@@ -27,8 +27,6 @@ alias fd="fdfind"
 
 alias bh="br -h"
 
-alias dot="dotnet watch run"
-
 alias audit="npm audit fix"
 
 alias cc="cd /home/stanzu10/.config"
@@ -59,6 +57,15 @@ function mkd
 end
 funcsave mkd
 
+function dot
+    cd /home/stanzu10/Dev/git/$argv/API/ && dotnet watch run
+end
+funcsave dot
+
+function react
+ cd /home/stanzu10/Dev/git/$argv && npm start
+end
+funcsave react
 # editor
 set EDITOR "nvim"
 

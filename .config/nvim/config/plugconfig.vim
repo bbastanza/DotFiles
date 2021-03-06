@@ -78,6 +78,7 @@ let g:startify_bookmarks = [
     \ { 'w': '~/vimwiki/index.wiki' },
     \ { 'n': '~/.config/nvim' },
     \ { 'a': '~/.config/awesome' },
+    \ { 'cp': '~/Dev/git/artist' },
     \ { 't': '~/.config/kitty/kitty.conf' },
     \ { 'f': '~/.config/fish/config.fish' },
     \ { 'co': '~/.config/compton/compton.conf' },

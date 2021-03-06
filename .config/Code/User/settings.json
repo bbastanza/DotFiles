@@ -16,10 +16,6 @@
         "rgba(255, 204, 102, .05)"
     ],
     "editor.fontFamily": "'Ubuntu Mono', 'Noto Sans','monospace', monospace, 'Droid Sans Fallback'",
-    "launch": {
-        "configurations": [],
-        "compounds": []
-    },
     "workbench.statusBar.visible": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "prettier.arrowParens": "avoid",
@@ -31,20 +27,19 @@
     "prettier.proseWrap": "always",
     "prettier.tabWidth": 4,
     "indentRainbow.errorColor": "#1e1e1e",
-    "workbench.colorTheme": "Halcyon",
+    "workbench.colorTheme": "OneDark Dark+",
     "keyboard.dispatch": "keyCode",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#2d3b53",
-        "statusBar.foreground": "#b7df80",
+        "statusBar.background": "#333333",
+        "statusBar.foreground": "#daa06a",
         "statusBar.noFolderBackground": "#333333",
-        "statusBar.debuggingBackground": "#263238"
+        "statusBar.debuggingBackground": "#272727"
     },
     "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
     "editor.minimap.enabled": false,
     "html.format.contentUnformatted": "",
     "html.format.extraLiners": "",
     "files.autoSave": "off",
-    "editor.fontSize": 13,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -54,14 +49,23 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "vscode-neovim.neovimExecutablePaths.linux": "/home/stanzu10/bin/nvim.appimage",
-    "vscode-neovim.neovimInitVimPaths.linux": "/home/stanzu10/.config/nvim/vscode/init.vim",
-    "auto-rename-tag.activationOnLanguage": [
-        "*"
-    ],
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/stanzu10/bin/nvim.appimage",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/stanzu10/.config/nvim/vscode/init.vim",
+    "auto-rename-tag.activationOnLanguage": ["*"],
     "editor.formatOnSave": true,
     "prettier.jsxBracketSameLine": true,
+    "vscode-neovim.mouseSelectionStartVisualMode": true,
+    "vscode-neovim.logOutputToConsole": true,
+    "editor.lineNumbers": "relative",
+    "cSpell.userWords": [
+        "darkergray",
+        "darkerpurple",
+        "darkpurple",
+        "lighterpurple",
+        "lightpurple",
+        "offwhite"
+    ]
 }

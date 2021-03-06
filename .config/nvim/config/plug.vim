@@ -3,13 +3,9 @@ call plug#begin('~/.vim/plugged')
 
 " Themes
 Plug 'joshdick/onedark.vim'
-Plug 'sainnhe/sonokai'
-Plug 'tomasiser/vim-code-dark'
-Plug 'itchyny/lightline.vim'
-Plug 'arcticicestudio/nord-vim'
-Plug 'tomasr/molokai'
-Plug 'ayu-theme/ayu-vim'
 Plug 'KeitaNakamura/neodark.vim'
+Plug 'itchyny/lightline.vim'
+Plug 'rakr/vim-one'
 
 " IDE
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

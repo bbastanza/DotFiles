@@ -28,33 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10
-	..
-0
-d/home/stanzu10/.config
-	nvim
-35
-d/home/stanzu10/.config/nvim
-	config
-2
-d/home/stanzu10/.config/nvim/config
-	keymap.vim
-1
-d/home/stanzu10/.config/nvim
-	config
-2
-d/home/stanzu10/Dev/git
-	sortit
-8
-d/home/stanzu10/Dev/git/sortit
-	Sort-It
-2
-d/home/stanzu10/Dev/git/sortit/Sort-It
-	src
-3
-d/home/stanzu10/Dev/git/sortit/Sort-It/src
-	helpers
-3
 d/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers
 	calculateTimeDelay.ts
 3
@@ -178,6 +151,33 @@ d/home/stanzu10/.config
 d/home/stanzu10/.config/fish
 	config.fish
 3
+d/home/stanzu10/Dev/git/artist/API
+	..
+0
+d/home/stanzu10/Dev/git
+	artist
+1
+d/home/stanzu10/Dev/git/artist
+	API
+3
+d/home/stanzu10/Dev/git/artist/API
+	..
+0
+d/home/stanzu10/Dev/git
+	artist
+1
+d/home/stanzu10/Dev
+	git
+8
+d/home/stanzu10/Dev/git
+	artist
+1
+d/home/stanzu10/Dev/git/artist
+	API
+3
+d/home/stanzu10/Dev/git/artist/API
+	API.csproj
+9
 d
 
 # Right window history (oldest to newest):
@@ -262,9 +262,7 @@ D
 :vs
 :vw
 :mkdir mdImages
-:q
 :?
-:help
 :h
 :w new.js
 :! touch new.tsx
@@ -285,6 +283,8 @@ D
 :!mkdir goneovim
 :!touch setting.toml
 :!mkdir sessions
+:help
+:q
 
 # Search history (oldest to newest):
 /neo

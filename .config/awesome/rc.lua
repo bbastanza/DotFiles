@@ -93,7 +93,7 @@ local browser      = os.getenv("Brave-browser") or "firefox"
 local scrlocker    = "slock"
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "  ", " ❴❵ ", " ∰ ", "  ", "  ", " ♫ ", "  " }
+awful.util.tagnames = { "  ", " ❴❵ ", " 䍝 ", "  ", "  ", " ♫ ", "  " }
 awful.layout.layouts = {
     awful.layout.suit.corner.nw,
     --awful.layout.suit.corner.ne,
@@ -405,62 +405,65 @@ globalkeys = my_table.join(
 
     -- X screen locker
     awful.key({ modkey, altkey }, "l", function () os.execute(scrlocker) end,
-              {description = "lock screen", group = "user apps"}),
+              {description = "lock screen", group = "launcher"}),
 
     -- User programs
     awful.key({ modkey, altkey }, "k", function () awful.util.spawn("xkill") end,  
-              {description = "launch xkill", group = "user apps"}),
+              {description = "launch xkill", group = "launcher"}),
 
     awful.key({ modkey }, "q", function () awful.util.spawn("qutebrowser 'https://soundcloud.com'") end,  
-              {description = "launch soundcloud(qutebrowser)", group = "user apps"}),
+              {description = "launch soundcloud(qutebrowser)", group = "launcher"}),
 
     awful.key({ modkey, altkey }, "space", function () awful.util.spawn("rofi -show run -desktop -display-run 'term'") end, -- 
-              {description = "launch Rofi", group = "user apps"}),
+              {description = "launch Rofi", group = "launcher"}),
 
     awful.key({ modkey }, "Tab", function () awful.util.spawn("rofi -show window -show-icons -config ~/.config/rofi/themes/dt-center.rasi") end, -- 
-              {description = "launch Rofi(window)", group = "user apps"}),
+              {description = "launch Rofi(window)", group = "launcher"}),
 
     awful.key({ modkey }, "space", function () awful.util.spawn("rofi -show drun") end, -- 
-              {description = "launch Rofi(drun)", group = "user apps"}),
+              {description = "launch Rofi(drun)", group = "launcher"}),
 
-    awful.key({ modkey }, "c", function () awful.spawn("code") end,
-              {description = "launch Visual Studio Code", group = "user apps"}),
+    awful.key({ modkey }, "v", function () awful.spawn("code") end,
+              {description = "launch Visual Studio Code", group = "launcher"}),
 
-    awful.key({ modkey }, "v", function () awful.spawn("/home/stanzu10/Setup/AppImages/Goneovim-0.4.9-linux/goneovim") end,
-              {description = "launch Goneovim", group = "user apps"}),
+    awful.key({ modkey }, "a", function () awful.spawn("azuredatastudio") end,
+              {description = "launch Azure Data Studio", group = "launcher"}),
+
+    awful.key({ modkey }, "n", function () awful.spawn("/home/stanzu10/Setup/AppImages/Goneovim-0.4.9-linux/goneovim") end,
+              {description = "launch Goneovim", group = "launcher"}),
 
     awful.key({ modkey }, "r", function () awful.spawn("rider") end,
-              {description = "launch Rider", group = "user apps"}),
+              {description = "launch Rider", group = "launcher"}),
     
     awful.key({ modkey }, "e", function () awful.spawn("emacs") end,
-              {description = "launch Doom Emacs", group = "user apps"}),
+              {description = "launch Doom Emacs", group = "launcher"}),
 
     awful.key({ modkey }, "s", function () awful.spawn("slack") end,
-              {description = "launch Slack", group = "user apps"}),
+              {description = "launch Slack", group = "launcher"}),
     
     awful.key({ modkey }, "z", function () awful.spawn("zoom") end,
-              {description = "launch Zoom", group = "user apps"}),
+              {description = "launch Zoom", group = "launcher"}),
     
     awful.key({ modkey }, "b", function () awful.spawn("brave-browser") end,
-              { description = "launch Brave", group = "user apps"}),
+              { description = "launch Brave", group = "launcher"}),
 
     awful.key({ modkey }, "t", function () awful.spawn("tidal-hifi") end,
-              {description = "launch Tidal Client", group = "user apps"}),
+              {description = "launch Tidal Client", group = "launcher"}),
 
     awful.key({ modkey }, "m", function () awful.spawn("gnome-terminal -e mocp") end,
-              {description = "launch MOC(gnome-terminal)", group = "user apps"}),
+              {description = "launch MOC(gnome-terminal)", group = "launcher"}),
 
     awful.key({ modkey, "Control" }, "m", function () os.execute("mocp -x") end,
-              {description = "kill MOC server", group = "user apps"}),
+              {description = "kill MOC server", group = "launcher"}),
 
     awful.key({ modkey }, "p", function () awful.spawn("pcmanfm") end,
-              {description = "launch Pcmanfm", group = "user apps"}),
+              {description = "launch Pcmanfm", group = "launcher"}),
 
     awful.key({ modkey }, "Print", function () awful.spawn("gnome-screenshot -a") end,
-              {description = "Screenshot(area)", group = "user apps"}),
+              {description = "Screenshot(area)", group = "launcher"}),
 
     awful.key({ modkey, "Control" }, "Print", function () awful.spawn("gnome-screenshot -i") end,
-              {description = "Screenshot(interactive)", group = "user apps"})
+              {description = "Screenshot(interactive)", group = "launcher"})
 )    
 
 clientkeys = my_table.join(
@@ -559,7 +562,7 @@ clientbuttons = gears.table.join(
         awful.mouse.client.move(c)
     end),
 
-    awful.button({ altkey }, 1, function (c)
+    awful.button({ altkey, modkey }, 1, function (c)
         c:emit_signal("request::activate", "mouse_click", {raise = true})
         awful.mouse.client.resize(c)
     end)
@@ -652,10 +655,6 @@ awful.rules.rules = {
     { rule = { instance = "code" },
       properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
       
--- goneovim         
-    { rule = { instance = "goneovim" },
-      properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
-
 -- rider         
     { rule = { instance = "rider" },
       properties = { tag = awful.util.tagnames[2], switchtotag = true  } },
