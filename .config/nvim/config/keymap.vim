@@ -5,7 +5,7 @@ let mapleader=" "
 nnoremap <silent><leader>. :vsplit<CR>
 nnoremap <silent><leader>, :split<CR>
 nnoremap <silent><leader>x :x<CR> 
-nnoremap <silent><leader>; $
+nnoremap <silent><space>; $
 nnoremap <silent><leader>c ~h
 nnoremap <silent><leader>ww :write<CR> 
 nnoremap <silent>Y y$

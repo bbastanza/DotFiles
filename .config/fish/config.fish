@@ -71,4 +71,3 @@ set EDITOR "nvim"
 
 # kitty completion
 kitty + complete setup fish | source
-
