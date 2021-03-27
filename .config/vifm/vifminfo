@@ -28,9 +28,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/stanzu10/Dev/git/sortit/Sort-It/src/helpers
-	calculateTimeDelay.ts
-3
 d/home/stanzu10/.config/nvim/config
 	keymap.vim
 1
@@ -178,6 +175,9 @@ d/home/stanzu10/Dev/git/artist
 d/home/stanzu10/Dev/git/artist/API
 	API.csproj
 9
+d/home/stanzu10
+	.config
+4
 d
 
 # Right window history (oldest to newest):
