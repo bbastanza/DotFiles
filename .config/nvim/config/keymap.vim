@@ -8,6 +8,7 @@ nnoremap <silent><leader>x :x<CR>
 nnoremap <silent><space>; $
 nnoremap <silent><leader>c ~h
 nnoremap <silent><leader>ww :write<CR> 
+nnoremap <silent><BS> X
 nnoremap <silent>Y y$
 nnoremap <silent><leader>w :write<CR> 
 nnoremap <silent><leader>q :q!<CR> 
@@ -43,8 +44,10 @@ nnoremap <leader>ss :SSave<CR>
 nnoremap <silent><ESC> :noh<CR>
 
 " Move multiple lines with capital K J
-xnoremap K :move '<-2<CR>gv-gv
-xnoremap J :move '>+1<CR>gv-gv
+xnoremap K 5k 
+xnoremap J 5j
+" xnoremap K :move '<-2<CR>gv-gv
+" xnoremap J :move '>+1<CR>gv-gv
 
 " Coc 
 " Explorer

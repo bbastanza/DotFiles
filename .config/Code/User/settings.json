@@ -69,5 +69,7 @@
         "offwhite"
     ],
     "editor.multiCursorModifier": "ctrlCmd",
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.shell.linux": "fish",
+    "tabnine.experimentalAutoImports": true
 }

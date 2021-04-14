@@ -12,6 +12,10 @@ alias gs="git status"
 alias add="git add"
 alias commit="git commit -m"
 alias push="git push"
+alias branch="git branch"
+alias pull="git pull"
+alias merge="git merge"
+alias checkout="git checkout"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias cfadd="config add -u"
@@ -37,6 +41,8 @@ alias ll="exa -la --group-directories-first"
 alias lss="exa --group-directories-first"
 alias ..="cd .."
 
+alias dot="dotnet watch run"
+
 alias moc="mocp"
 alias mok="mocp -x"
 
@@ -56,11 +62,6 @@ function mkd
     cd $argv
 end
 funcsave mkd
-
-function dot
-    cd /home/stanzu10/Dev/git/$argv/API/ && dotnet watch run
-end
-funcsave dot
 
 function react
  cd /home/stanzu10/Dev/git/$argv && npm start

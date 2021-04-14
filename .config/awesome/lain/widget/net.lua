@@ -58,8 +58,8 @@ local function factory(args)
             dev_now.sent     = (now_t - dev_before.last_t) / timeout / units
             dev_now.received = (now_r - dev_before.last_r) / timeout / units
 
-            net_now.sent     = net_now.sent + dev_now.sent
-            net_now.received = net_now.received + dev_now.received
+            net_now.sent     = (net_now.sent + dev_now.sent) / 10
+            net_now.received = (net_now.received + dev_now.received) / 10
 
             dev_now.sent     = string.format("%.1f", dev_now.sent)
             dev_now.received = string.format("%.1f", dev_now.received)

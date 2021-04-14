@@ -73,7 +73,7 @@ theme.battery                                   = theme.icon_dir .. "/battery.pn
 theme.calendar                                  = theme.icon_dir .. "/cal.png"
 theme.cpu                                       = theme.icon_dir .. "/cpu.png"
 theme.net_up                                    = theme.icon_dir .. "/net_up.png"
---theme.net_down                                  = theme.icon_dir .. "/net_down.png"
+theme.net_down                                  = theme.icon_dir .. "/net_down.png"
 theme.layout_tile                               = theme.icon_dir .. "/tile.png"
 theme.layout_tileleft                           = theme.icon_dir .. "/tileleft.png"
 theme.layout_tilebottom                         = theme.icon_dir .. "/tilebottom.png"
@@ -87,6 +87,7 @@ theme.layout_max                                = theme.icon_dir .. "/max.png"
 theme.layout_fullscreen                         = theme.icon_dir .. "/fullscreen.png"
 theme.layout_magnifier                          = theme.icon_dir .. "/magnifier.png"
 theme.layout_floating                           = theme.icon_dir .. "/floating.png"
+theme.layout_centerwork                         = theme.icon_dir .. "/magnifier.png"
 
 theme.tasklist_plain_task_name                  = true
 theme.tasklist_disable_icon                     = true
@@ -235,16 +236,16 @@ local mpd_icon = awful.widget.launcher({ image = theme.mpdl, command = theme.mus
 --    os.execute("mpc toggle")
 --    theme.mpd.update()
 --end)))
--- Net
---local netdown_icon = wibox.widget.imagebox(theme.net_down)
---local net = lain.widget.net({
---    settings = function()
---        widget:set_markup(markup.font("Ubuntu Mono Bold 1", " ") .. markup.font(theme.font, net_now.received .. " - "
---                          .. net_now.sent) .. markup.font("Ubuntu Mono Bold 2", " "))
---    end
---})
---local netbg = wibox.container.background(net.widget, theme.bg_focus, gears.shape.rectangle)
---local networkwidget = wibox.container.margin(netbg, dpi(0), dpi(0), dpi(5), dpi(5))
+ -- Net
+local netdown_icon = wibox.widget.imagebox(theme.net_down)
+local net = lain.widget.net({
+    settings = function()
+        widget:set_markup(markup.font("Ubuntu Mono Bold 1", " ") .. markup.font(theme.font, net_now.received .. " - "
+                          .. net_now.sent) .. markup.font("Ubuntu Mono Bold 2", " "))
+    end
+})
+local netbg = wibox.container.background(net.widget, theme.bg_focus, gears.shape.rectangle)
+local networkwidget = wibox.container.margin(netbg, dpi(0), dpi(0), dpi(5), dpi(5))
 
 -- Weather
 --theme.weather = lain.widget.weather({
@@ -352,9 +353,10 @@ function theme.at_screen_connect(s)
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
---            netdown_icon,
---            networkwidget,
---            netup_icon,
+            -- bottom_bar,
+            -- netdown_icon,
+            -- networkwidget,
+            -- netup_icon,
             bottom_bar,
             netup_icon,
             memory,
