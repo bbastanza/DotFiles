@@ -741,6 +741,7 @@ awful.spawn.with_shell("libinput-gestures")
 awful.spawn.with_shell("setxkbmap -option caps:swapescape")
 awful.spawn.with_shell("blueman-applet")
 awful.spawn.with_shell("nm-applet")
+awful.spawn.with_shell("pa-applet")
 APWTimer = timer({ timeout = 5 }) -- set update interval in s
 APWTimer:connect_signal("timeout", APW.Update)
 APWTimer:start()
