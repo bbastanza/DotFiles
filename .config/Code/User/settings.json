@@ -60,16 +60,7 @@
     "vscode-neovim.mouseSelectionStartVisualMode": true,
     "vscode-neovim.logOutputToConsole": true,
     "editor.lineNumbers": "relative",
-    "cSpell.userWords": [
-        "darkergray",
-        "darkerpurple",
-        "darkpurple",
-        "lighterpurple",
-        "lightpurple",
-        "offwhite"
-    ],
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.shell.linux": "fish",
-    "tabnine.experimentalAutoImports": true
+    "terminal.integrated.shell.linux": "fish"
 }
